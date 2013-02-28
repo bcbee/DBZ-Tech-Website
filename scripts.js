@@ -1,0 +1,1 @@
+//Scroll code: var vscroll = (document.all ? document.scrollTop : window.pageYOffset);
