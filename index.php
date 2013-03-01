@@ -8,6 +8,11 @@ include('classes.php');
         <script src="scripts.js"></script>
     </head>
     <body>
-        Website
+        <div class="view" id="view1">
+            <div class="panel" id="left1">
+            </div>
+            <div class="panel" id="right1">
+            </div>
+        </div>
     </body>
 </html>

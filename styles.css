@@ -1,0 +1,25 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.panel {
+    height: 100%;
+    float: left;
+    background: black;
+}
+
+.view {
+    height: 100%;
+}
+
+#left1 {
+    width: 200px;
+}
+
+#right1 {
+    width: 200px;
+    float: right;
+    background: red;
+}
