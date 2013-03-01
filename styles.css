@@ -12,22 +12,26 @@ html,body {
     height: 100%;
     width: 100%;
     margin: 0px;
+    text-align: center;
+    background: black;
+    color: #BFFF00;
 }
 
 .panel {
     height: 100%;
-    float: left;
-    background: black;
+    margin: 0px 5%;
+    width: 200px;
+    float: right;
+    background: #BFFF00;
 }
 
 .view {
-    height: 100%;
+    height: 800px;
 }
 
 .logo {
     margin: auto;
     width: 225px;
-    margin-top: 10%;
 }
 
 .logo h1 {
@@ -43,13 +47,23 @@ html,body {
     font-family: Bebas;
 }
 
-
-#left1 {
-    width: 200px;
+.arrow {
+    width: 100px;
 }
 
-#right1 {
-    width: 200px;
-    float: right;
-    background: red;
+.downarrow {
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+}
+
+#arrow1 {
+    margin: auto;
+}
+
+#view1 {
+    padding-top: 10%;
+}
+
+#view2 {
+    background: white;
 }

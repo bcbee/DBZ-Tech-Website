@@ -13,6 +13,11 @@ include('classes.php');
                 <h1>DBZ</h1>
                 <h2>Technology</h2>
             </div>
+            <img src="Resources/Images/arrow.svg" alt="Continue" class="arrow downarrow" id="arrow1" />
+        </div>
+        <div class="view" id="view2">
+            <div class="panel"></div>
+            <img src="Resources/Images/arrow.svg" alt="Continue" class="arrow downarrow" id="arrow1" />
         </div>
     </body>
 </html>
