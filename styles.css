@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Coalition;
+    src: url(/Resources/Fonts/Coalition.ttf);
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(/Resources/Fonts/BebasNeue.otf);
+}
+
 html,body {
     height: 100%;
     width: 100%;
@@ -13,6 +23,26 @@ html,body {
 .view {
     height: 100%;
 }
+
+.logo {
+    margin: auto;
+    width: 225px;
+    margin-top: 10%;
+}
+
+.logo h1 {
+    margin: 0px;
+    font-size: 77px;
+    font-family: Coalition;
+}
+
+.logo h2 {
+    margin: 0px;
+    margin-top: -25px;
+    font-size: 50px;
+    font-family: Bebas;
+}
+
 
 #left1 {
     width: 200px;
