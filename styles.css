@@ -17,12 +17,14 @@ html,body {
     color: #BFFF00;
 }
 
-.panel {
-    height: 100%;
-    margin: 0px 5%;
+.ribbon {
+    height: 800px;
+    margin: 0px 83px;
     width: 200px;
     float: right;
     background: #BFFF00;
+    position: absolute;
+    right: 0px;
 }
 
 .view {
@@ -54,6 +56,34 @@ html,body {
 .downarrow {
     -moz-transform:rotate(90deg);
     -webkit-transform:rotate(90deg);
+}
+
+.panel {
+    width: 60%;
+    height: 500px;
+    float: right;
+    position: relative;
+    top: 100px;
+    margin-right: 40px;
+    z-index: 4;
+}
+
+.panelrect {
+    width: 100%;
+    height: 440px;
+    background: red;
+    padding-top: 15px;
+    text-align: left;
+}
+
+.panelcorner {
+    width: 50px;
+    float: right;
+    margin-right: -7px;
+}
+
+.panelpadding {
+    padding: 0px 15px;
 }
 
 #arrow1 {
