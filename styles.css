@@ -15,6 +15,7 @@ html,body {
     text-align: center;
     background: black;
     color: #BFFF00;
+    font-family: Arial;
 }
 
 .ribbon {
@@ -25,6 +26,20 @@ html,body {
     background: #BFFF00;
     position: absolute;
     right: 0px;
+}
+
+.horizontal {
+    height: 200px;
+    width: 100%;
+    margin: 0px;
+    margin-top: 50px;
+    z-index: 2;
+}
+
+.block {
+    background: black;
+    width: 100%;
+    height: 100%;
 }
 
 .view {
@@ -66,6 +81,12 @@ html,body {
     top: 100px;
     margin-right: 40px;
     z-index: 4;
+} 
+
+.panelleft {
+    top: 275px;
+    float: left;
+    margin-left: 40px;
 }
 
 .panelrect {
@@ -82,6 +103,11 @@ html,body {
     margin-right: -7px;
 }
 
+.panelcornerleft {
+    float: left;
+    margin-left: -7px;
+}
+
 .panelpadding {
     padding: 0px 15px;
 }
@@ -91,5 +117,9 @@ html,body {
 }
 
 #view2 {
+    background: white;
+}
+
+#view4 {
     background: white;
 }
