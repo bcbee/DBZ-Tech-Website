@@ -81,7 +81,20 @@ html,body {
     top: 100px;
     margin-right: 40px;
     z-index: 4;
-} 
+}
+
+.panel h1 {
+    font-family: Coalition;
+    font-size: 45px;
+    margin: 0px;
+}
+
+.panel h2 {
+    font-family: Bebas;
+    font-size: 30px;
+    margin: 0px;
+    letter-spacing: 4px;
+}
 
 .panelleft {
     top: 275px;
@@ -110,6 +123,47 @@ html,body {
 
 .panelpadding {
     padding: 0px 15px;
+}
+
+.buttonholder {
+    margin: auto;
+    width: 500px;
+    height: 233px;
+    position: relative;
+    top: 400px;
+    padding: 5px;
+}
+
+.button {
+    background: orange;
+    float: left;
+    border-radius: 5px;
+    color: white;
+    font-family: Bebas;
+}
+
+.button p {
+    margin: 0px;
+}
+
+.button:hover {
+    background: red;
+}
+
+.smallbutton {
+    height: 100px;
+    width: 150px;
+    margin: 8px;
+}
+
+.bigbutton {
+    height: 100px;
+    width: 481px;
+    margin: 8px;
+}
+
+.bigbutton p {
+    font-size: 90px;
 }
 
 #arrow1 {

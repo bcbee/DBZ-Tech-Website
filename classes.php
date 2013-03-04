@@ -1,0 +1,3 @@
+<?php
+#PHP Class File
+?>

@@ -22,7 +22,8 @@ include('classes.php');
             <div class="panel">
                 <div class="panelrect">
                     <div class="panelpadding">
-                        <p>This is text</p>
+                        <h1>Compelling Design</h1>
+                        <h2>Simple. Flexible. Elegant.</h2>
                     </div>
                 </div>
                 <img src="Resources/Images/PanelCorner.svg" class="panelcorner" alt="Corner" />
@@ -34,7 +35,8 @@ include('classes.php');
             <div class="panel panelleft" style="">
                 <div class="panelrect">
                     <div class="panelpadding">
-                        <p>This is text</p>
+                        <h1>Consulting</h1>
+                        <h2>Affortible Consulting for Computing Solutions</h2>
                     </div>
                 </div>
                 <img src="Resources/Images/PanelCorner2.svg" class="panelcorner panelcornerleft" alt="Corner" />
@@ -47,6 +49,12 @@ include('classes.php');
         <div class="view" id="view4">
             <div class="ribbon" style="left: 0px;"><div class="block" style="height: 550px; margin-top: 250px; background: white;"></div></div>
             <div class="ribbon horizontal" style=""><div class="block" style="width: 283px; background: white;"><img src="Resources/Images/FoldRight.svg" alt="Fold Right" style="margin-left: 83px" /></div></div>
+            <div class="buttonholder">
+                <div class="button smallbutton"></div>
+                <div class="button smallbutton"></div>
+                <div class="button smallbutton"></div>
+                <div class="button bigbutton"><p>@Contact</p></div>
+            </div>
             <!--<img src="Resources/Images/arrow.svg" alt="Continue" class="arrow downarrow" id="arrow1" />-->
         </div>
     </body>
