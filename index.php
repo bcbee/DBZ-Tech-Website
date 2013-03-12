@@ -41,14 +41,14 @@ include('classes.php');
                 </div>
                 <img src="Resources/Images/PanelCorner2.svg" class="panelcorner panelcornerleft" alt="Corner" />
             </div>
-            <div class="ribbon"><div class="block" style="height: 550px; margin-top: 250px;"></div></div>
-            <div class="ribbon" style="left: 0px;"><div class="block" style="height: 50px;"></div></div>
+            <div class="ribbon" style="height:50px;"></div>
+            <div class="ribbon" style="left: 0px; margin-top: 250px;"></div>
             <div class="ribbon horizontal" style=""><div class="block" style="width: 283px;"><img src="Resources/Images/FoldDown.svg" alt="Fold Down" style="margin-left: 83px" /></div><div class="block" style="width: 283px; float: right; margin-top: -200px;"><img src="Resources/Images/FoldLeft.svg" alt="Fold Left" style="margin-right: 83px" /></div></div>
             <!--<img src="Resources/Images/arrow.svg" alt="Continue" class="arrow downarrow" id="arrow1" />-->
         </div>
         <div class="view" id="view4">
-            <div class="ribbon" style="left: 0px;"><div class="block" style="height: 550px; margin-top: 250px; background: white;"></div></div>
-            <div class="ribbon horizontal" style=""><div class="block" style="width: 283px; background: white;"><img src="Resources/Images/FoldRight.svg" alt="Fold Right" style="margin-left: 83px" /></div></div>
+            <div class="ribbon" style="left: 0px; height: 50px;"></div>
+            <div class="ribbon horizontal"><div class="block" style="width: 283px; background: white;"><img src="Resources/Images/FoldRight.svg" alt="Fold Right" style="margin-left: 83px" /></div></div>
             <div class="buttonholder">
                 <div class="button smallbutton"></div>
                 <div class="button smallbutton"></div>

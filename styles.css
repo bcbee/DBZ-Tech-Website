@@ -171,7 +171,11 @@ html,body {
 }
 
 #view2 {
-    background: white;
+    background: url(/Resources/Images/View-2.png);
+}
+
+#view3 {
+    background: url(/Resources/Images/View-3.svg);
 }
 
 #view4 {
