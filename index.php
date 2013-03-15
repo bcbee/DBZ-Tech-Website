@@ -20,7 +20,7 @@ include('classes.php');
         </div>
         <div class="view" id="view2">
             <div class="panel">
-                <div class="panelrect">
+                <div class="panelrect" style="border-bottom-right-radius: 0px;">
                     <div class="panelpadding">
                         <h1>Compelling Design</h1>
                         <h2>Simple. Flexible. Elegant.</h2>
@@ -34,7 +34,7 @@ include('classes.php');
         </div>
         <div class="view" id="view3">
             <div class="panel panelleft" style="">
-                <div class="panelrect">
+                <div class="panelrect" style="border-bottom-left-radius: 0px;">
                     <div class="panelpadding">
                         <h1>Consulting</h1>
                         <h2>Affordable Consulting for Computing Solutions</h2>
