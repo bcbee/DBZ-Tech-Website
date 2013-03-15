@@ -7,6 +7,7 @@ include('classes.php');
         <link rel="stylesheet" href="styles.css" />
         <script src="scripts.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>DBZ Technology | Home</title>
     </head>
     <body>
         <div class="view" id="view1">

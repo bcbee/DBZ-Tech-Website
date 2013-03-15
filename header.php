@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="scripts.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title><?php echo 'DBZ Technology | '.$title; ?></title>
+    </head>
+    <body>
+        <div class="header">
+            <a href="/index.php">Back</a>
+            <div class="logo" style="float: right; margin-top: 30px; margin-right: 25px;">
+                <h1>DBZ</h1>
+                <h2>Technology</h2>
+            </div>
+        </div>
+        <div class="content">

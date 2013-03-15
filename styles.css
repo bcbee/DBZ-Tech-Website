@@ -168,6 +168,21 @@ html,body {
     font-size: 90px;
 }
 
+.header {
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    background: #444;
+    margin-top: 20px;
+}
+
+.content {
+    background: white;
+    width: 90%;
+    margin: auto;
+    padding-top: 1px;
+}
+
 #arrow1 {
     margin: auto;
 }
