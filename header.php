@@ -8,8 +8,8 @@
     </head>
     <body>
         <div class="header">
-            <a href="/index.php">Back</a>
-            <div class="logo" style="float: right; margin-top: 30px; margin-right: 25px;">
+            <a href="/index.php" class="back"><img src="/Resources/Images/Back.svg" alt="Back" /></a>
+            <div class="logo" style="float: right; margin-right: 25px;">
                 <h1>DBZ</h1>
                 <h2>Technology</h2>
             </div>

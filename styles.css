@@ -170,7 +170,7 @@ html,body {
 
 .header {
     width: 90%;
-    height: 200px;
+    height: 130px;
     margin: auto;
     background: #444;
     margin-top: 20px;
@@ -181,6 +181,27 @@ html,body {
     width: 90%;
     margin: auto;
     padding-top: 1px;
+}
+
+.back {
+    float: left;
+    margin: 15px;
+}
+
+.back img {
+    width: 100px;
+}
+
+.link {
+    float: right;
+    margin: 15px;
+    position: absolute;
+    right: 15px;
+    bottom: 35px;
+}
+
+.link img {
+    width: 150px;
 }
 
 #arrow1 {
