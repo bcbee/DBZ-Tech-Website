@@ -164,6 +164,20 @@ html,body {
     margin: 8px;
 }
 
+.longbutton {
+    height: 40px;
+    width: 245px;
+    margin: 8px;
+    margin-left: 80px;
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+.longbutton:hover {
+    background: white;
+    color: #BFFF00;
+}
+
 .bigbutton p {
     font-size: 90px;
 }
@@ -203,15 +217,42 @@ html,body {
 
 .sidenav {
     background: url(/Resources/Images/SideNav.svg);
-    width: 301px;
-    height: 600px;
+    width: 400px;
+    height: 595px;
     float: right;
-    margin-top: -1px;
-    margin-right: -1px;
+    color: white;
+    padding-top: 5px;
+}
+
+.sidenav h1 {
+    font-family: Coalition;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.sidenav h2 {
+    font-family: Bebas;
+    font-size: 30px;
+    margin: 0px;
+    letter-spacing: 4px;
+}
+
+.sidenav p {
+    margin: 17px;
+    margin-top: 95px;
+    margin-bottom: 10px;
 }
 
 .link img {
     width: 150px;
+}
+
+.card {
+    margin: 25px;
+    height: 400px;
+    width: 300px;
+    background: #444;
+    float: left;
 }
 
 #arrow1 {
