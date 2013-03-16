@@ -4,8 +4,9 @@ $title = "Consulting";
 include('header.php');
 ?>
 
-<div class="card">
-    <p>This is a card</p>
+<div id="consulting">
+    <div class="sidenav">
+    </div>
 </div>
 
 <?php

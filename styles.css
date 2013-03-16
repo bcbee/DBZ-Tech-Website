@@ -181,6 +181,7 @@ html,body {
     width: 90%;
     margin: auto;
     padding-top: 1px;
+    height: 600px;
 }
 
 .back {
@@ -198,6 +199,15 @@ html,body {
     position: absolute;
     right: 15px;
     bottom: 35px;
+}
+
+.sidenav {
+    background: url(/Resources/Images/SideNav.svg);
+    width: 301px;
+    height: 600px;
+    float: right;
+    margin-top: -1px;
+    margin-right: -1px;
 }
 
 .link img {
