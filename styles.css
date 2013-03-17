@@ -18,6 +18,10 @@ html,body {
     font-family: Arial;
 }
 
+a {
+    text-decoration: none;
+}
+
 .ribbon {
     height: 800px;
     margin: 0px 83px;
@@ -136,7 +140,7 @@ html,body {
 }
 
 .button {
-    background: #444;
+    background: #222;
     float: left;
     border-radius: 5px;
     color: #BFFF00;
@@ -248,11 +252,16 @@ html,body {
 }
 
 .card {
-    margin: 25px;
+    margin: 8px;
+    padding: 15px;
     height: 400px;
     width: 300px;
     background: #444;
     float: left;
+}
+
+.card a {
+    margin-left: 30px;
 }
 
 #arrow1 {
