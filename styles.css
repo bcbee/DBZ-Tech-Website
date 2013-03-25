@@ -204,7 +204,8 @@ a {
 
 .back {
     float: left;
-    margin: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 .back img {

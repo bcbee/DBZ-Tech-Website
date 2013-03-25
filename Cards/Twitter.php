@@ -1,0 +1,3 @@
+<h1>Twitter</h1>
+<a class="twitter-timeline" href="https://twitter.com/brendancboyle" data-widget-id="313073723370504192">Tweets by @brendancboyle</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>    
