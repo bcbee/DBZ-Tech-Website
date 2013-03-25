@@ -1,7 +1,7 @@
 <?php
 include('classes.php');
 $title = "Profile";
-#$back = "/".$_GET['back'].".php";
+#$back = "/".$_GET['back'];
 $back = "/";
 include('header.php');
 ?>

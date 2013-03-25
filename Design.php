@@ -1,7 +1,7 @@
 <?php
 include('classes.php');
 $title = "Design";
-$back = "/index.php#view2";
+$back = "/#view2";
 include('header.php');
 ?>
 
