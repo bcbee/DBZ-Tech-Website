@@ -153,7 +153,7 @@ a {
 
 .button:hover {
     background: #BFFF00;
-    color: white;
+    color: black;
 }
 
 .smallbutton {
@@ -179,7 +179,7 @@ a {
 
 .longbutton:hover {
     background: white;
-    color: #BFFF00;
+    color: black;
 }
 
 .bigbutton p {
@@ -259,10 +259,25 @@ a {
     width: 300px;
     background: #444;
     float: left;
+    border-radius: 5px;
 }
 
 .card a {
     margin-left: 30px;
+}
+
+#Splat {
+    background: #ff3019; /* Old browsers */
+    background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+    background: -ms-linear-gradient(top, #ff3019 0%,#cf0404 100%); /* IE10+ */
+    background: linear-gradient(top, #ff3019 0%,#cf0404 100%); /* W3C */
+    color: white;
+}
+
+#MPAror {
+    background: #1B75BB;
+    color: white;
 }
 
 #arrow1 {

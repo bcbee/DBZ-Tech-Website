@@ -57,7 +57,7 @@ include('classes.php');
             <div class="buttonholder">
                 <a class="button smallbutton" href="/Profile"><p style="font-size: 52px; margin-top: 23px;">Profile</p></a>
                 <a class="button smallbutton" href="#"><p style="font-size: 45px; margin-top: 18px; line-height: 38px;">Computer Repair</p></a>
-                <a class="button smallbutton" href="#"><p style="font-size: 40px; margin-top: 27px;">Solutions</p></a>
+                <a class="button smallbutton" href="#"><p style="font-size: 66px; margin-top: 16px;">Apps</p></a>
                 <a class="button bigbutton" href="#"><p>@Contact</p></a>
             </div>
             <!--<img src="Resources/Images/arrow.svg" alt="Continue" class="arrow downarrow" id="arrow1" />-->
