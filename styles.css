@@ -182,6 +182,16 @@ a {
     color: black;
 }
 
+.centerbutton {
+    margin: 0px;
+    float: none;
+    padding: 0px 15px;
+}
+
+.centerbutton:hover {
+    border: 3px solid black;
+}
+
 .bigbutton p {
     font-size: 90px;
 }
