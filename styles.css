@@ -319,3 +319,19 @@ a {
 #view4 {
     background: url(/Resources/Images/View-4.svg);
 }
+
+#profile {
+    font-size: 52px; 
+    margin-top: 23px;
+}
+
+#repair {
+    font-size: 45px; 
+    margin-top: 18px; 
+    line-height: 38px;
+}
+
+#apps {
+    font-size: 66px; 
+    margin-top: 16px;
+}

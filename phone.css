@@ -1,0 +1,65 @@
+.panel {
+    width: 93%;
+    float: none;
+    margin: auto;
+    top: 40px;
+    height: 720px;
+}
+
+.panel h1 {
+    font-size: 31px;
+}
+
+.panelrect {
+    height: 700px;
+}
+
+.panelcorner {
+    display: none;
+}
+
+.link {
+    bottom: -8px;
+}
+
+.link img {
+    width: 100px;
+}
+
+.ribbon {
+    display: none;
+}
+
+.buttonholder {
+    width: 90%;
+    top: 20px;
+}
+
+.smallbutton {
+    width: 100%;
+    height: 60px;
+    margin: 8px 0px;
+}
+
+.bigbutton {
+    width: 100%;
+    margin: 0px;
+}
+
+.bigbutton p {
+    font-size: 75px;
+    margin-top: 8px;
+}
+
+#profile {
+    margin-top: 2px;
+}
+
+#repair {
+    margin-top: 13px;
+}
+
+#apps {
+    margin-top: 2px;
+    font-size: 53px;
+}
