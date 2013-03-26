@@ -9,6 +9,7 @@ include('classes.php');
         <link rel='stylesheet' media='screen and (max-width: 700px)' href='phone.css' />
         <script src="scripts.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <title>DBZ Technology | Home</title>
         <script type="text/javascript">
           var _gaq = _gaq || [];
