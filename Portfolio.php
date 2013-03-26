@@ -10,11 +10,12 @@ include('header.php');
     <?php
         $view = $_GET['view'];
         if ($view == "All") {
-            $cards = Array('Splat', 'MPAror', 'CreateServer', 'CreateBrock', 'CreateGrandpa', 'CreateOldServer', 'Erickson');
+            $cards = Array('Splat', 'MPAror', 'Erickson');
         } elseif ($view == "Design") {
             $cards = Array('Splat', 'MPAror');
         } elseif ($view == "Creation") {
-            $cards = Array('CreateServer', 'CreateBrock', 'CreateGrandpa', 'CreateOldServer');
+            #$cards = Array('CreateServer', 'CreateBrock', 'CreateGrandpa', 'CreateOldServer');
+            $cards = Array("ComingSoon");
         } elseif ($view == "Repair") {
             $cards = Array('ComingSoon');
         } elseif ($view == "Solutions") {
@@ -24,7 +25,7 @@ include('header.php');
         } else {
             $cards = Array('ComingSoon');
         }
-        array_push($cards, 'Ad');
+        array_push($cards, 'You', 'Ad');
         cards::loadCards($cards);
     ?>
 </div>
