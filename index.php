@@ -71,9 +71,9 @@ include('classes.php');
             <div class="ribbon horizontal"><div class="block" style="width: 283px; background: white;"><img src="Resources/Images/FoldRight.svg" alt="Fold Right" style="margin-left: 83px" /></div></div>
             <div class="buttonholder">
                 <a class="button smallbutton" href="/Profile"><p id="profilebutton">Profile</p></a>
-                <a class="button smallbutton" href="#"><p id="repairbutton">Computer Repair</p></a>
-                <a class="button smallbutton" href="#"><p id="appsbutton">Apps</p></a>
-                <a class="button bigbutton" href="#"><p>@Contact</p></a>
+                <a class="button smallbutton" href="/Portfolio?view=Repair"><p id="repairbutton">Computer Repair</p></a>
+                <a class="button smallbutton" href="/Portfolio?view=Apps"><p id="appsbutton">Apps</p></a>
+                <a class="button bigbutton" href="mailto:brendan@dbztech.com"><p>@Contact</p></a>
             </div>
             <!--<img src="Resources/Images/arrow.svg" alt="Continue" class="arrow downarrow" id="arrow1" />-->
         </div>
