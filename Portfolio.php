@@ -6,11 +6,11 @@ $back = "/".$_GET['back'];
 include('header.php');
 ?>
 
-<div id="portfolio" style="background: white; width: 100%; height: 900px;">
+<div id="portfolio" class="cardholder">
     <?php
         $view = $_GET['view'];
         if ($view == "All") {
-            $cards = Array('Twitter');
+            $cards = Array('Splat', 'MPAror', 'CreateServer', 'CreateBrock', 'CreateGrandpa', 'CreateOldServer', 'Erickson');
         } elseif ($view == "Design") {
             $cards = Array('Splat', 'MPAror');
         } elseif ($view == "Creation") {
@@ -24,6 +24,7 @@ include('header.php');
         } else {
             $cards = Array('ComingSoon');
         }
+        array_push($cards, 'Ad');
         cards::loadCards($cards);
     ?>
 </div>

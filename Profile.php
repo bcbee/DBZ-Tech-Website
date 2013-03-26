@@ -6,7 +6,7 @@ $back = "/";
 include('header.php');
 ?>
 
-<div id="profile" style="background: white; width: 100%; height: 900px;">
+<div id="profile" class="cardholder">
     <?php
         $cards = Array('Bio','Qualifications','Portfolio','Twitter');
         cards::loadCards($cards);
