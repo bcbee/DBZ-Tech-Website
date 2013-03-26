@@ -135,7 +135,7 @@ a {
     width: 500px;
     height: 233px;
     position: relative;
-    top: 350px;
+    top: 300px;
     padding: 5px;
 }
 
@@ -280,6 +280,17 @@ a {
     background: white; 
     width: 100%;
     float: left;
+}
+
+.info {
+    background: #444;
+    width: 240px;
+    margin: auto;
+    position: relative;
+    padding: 5px;
+    padding-top: 1px;
+    top: 352px;
+    border-radius: 5px;
 }
 
 #Splat {

@@ -75,6 +75,17 @@ include('classes.php');
                 <a class="button smallbutton" href="/Portfolio?view=Apps"><p id="appsbutton">Apps</p></a>
                 <a class="button bigbutton" href="mailto:brendan@dbztech.com"><p>@Contact</p></a>
             </div>
+            <div class="info" itemscope itemtype="http://schema.org/Organization">
+                <h1><span itemprop="name">DBZ Technology</span></h1>
+                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <i>Location: <span itemprop="addressLocality">Woodbury</span>,
+                  <span itemprop="addressRegion">MN</span></i>
+                </div>
+                <br />
+                <i>Tel: <span itemprop="telephone">(651)-346-9760</span></i>
+                <br />
+                <i>Email: <span itemprop="email">brendan@dbztech.com</span></i>
+            </div>
             <!--<img src="Resources/Images/arrow.svg" alt="Continue" class="arrow downarrow" id="arrow1" />-->
         </div>
     </body>
