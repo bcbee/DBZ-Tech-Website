@@ -286,6 +286,13 @@ a {
     color: white;
 }
 
+#Erickson {
+    background: white;
+    border: 3px solid black;
+    height: 394px;
+    color: black;
+}
+
 #arrow1 {
     margin: auto;
 }
