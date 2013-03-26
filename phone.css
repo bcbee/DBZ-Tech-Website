@@ -7,7 +7,7 @@
 }
 
 .panel h1 {
-    font-size: 31px;
+    font-size: 30px;
 }
 
 .panelrect {
@@ -62,4 +62,60 @@
 #appsbutton {
     margin-top: 2px;
     font-size: 53px;
+}
+
+.info {
+    top: 250px;
+}
+
+.back img {
+    width: 65px;
+    margin-top: 0px;
+}
+
+.back {
+    margin-top: 30px;
+    margin-left: 2px;
+}
+
+.contentlogo {
+    margin-right: -17px;
+    margin-top: 22px;
+}
+
+.contentlogo h1 {
+    font-size: 65px;
+}
+
+.contentlogo h2 {
+    font-size: 44px;
+    margin-top: -23px;
+}
+
+.card {
+    margin: 1%;
+    padding: 1%;
+    width: 96%;
+}
+
+.card a {
+    margin-left: 17px;
+}
+
+.sidenav {
+    width: 100%;
+    height: auto;
+    background: #BFFF00;
+}
+
+.sidenav p {
+    margin-top: 10px;
+}
+
+.longbutton {
+    margin-left: 22px;
+}
+
+#Erickson {
+    width: 95%;
 }

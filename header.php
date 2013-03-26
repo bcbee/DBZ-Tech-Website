@@ -2,8 +2,10 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css" />
+        <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 1100px)' href='/tablet.css' />
+        <link rel='stylesheet' media='screen and (max-width: 700px)' href='/phone.css' />
         <script src="scripts.js"></script>
-        <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <title><?php echo 'DBZ Technology | '.$title; ?></title>
         <script type="text/javascript">
@@ -22,7 +24,7 @@
     <body>
         <div class="header">
             <a href="<?php echo $back; ?>" class="back"><img src="/Resources/Images/Back.svg" alt="Back" class="back" /></a>
-            <div class="logo" style="float: right; margin-right: 25px; margin-top: 15px;">
+            <div class="logo contentlogo">
                 <h1>DBZ</h1>
                 <h2>Technology</h2>
             </div>

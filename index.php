@@ -5,8 +5,8 @@ include('classes.php');
 <html>
     <head>
         <link rel="stylesheet" href="styles.css" />
-        <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 1100px)' href='tablet.css' />
-        <link rel='stylesheet' media='screen and (max-width: 700px)' href='phone.css' />
+        <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 1100px)' href='/tablet.css' />
+        <link rel='stylesheet' media='screen and (max-width: 700px)' href='/phone.css' />
         <script src="scripts.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
@@ -82,9 +82,9 @@ include('classes.php');
                   <span itemprop="addressRegion">MN</span></i>
                 </div>
                 <br />
-                <i>Tel: <span itemprop="telephone">(651)-346-9760</span></i>
+                <i>Tel: <span itemprop="telephone"><a href="tel:6513469760">(651)-346-9760</a></span></i>
                 <br />
-                <i>Email: <span itemprop="email">brendan@dbztech.com</span></i>
+                <i>Email: <span itemprop="email"><a href="mailto:brendan@dbztech.com">brendan@dbztech.com</a></span></i>
             </div>
             <!--<img src="Resources/Images/arrow.svg" alt="Continue" class="arrow downarrow" id="arrow1" />-->
         </div>

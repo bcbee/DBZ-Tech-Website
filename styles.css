@@ -20,6 +20,7 @@ html,body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .ribbon {
@@ -291,6 +292,12 @@ a {
     padding-top: 1px;
     top: 352px;
     border-radius: 5px;
+}
+
+.contentlogo {
+    float: right; 
+    margin-right: 25px; 
+    margin-top: 15px;
 }
 
 #Splat {
