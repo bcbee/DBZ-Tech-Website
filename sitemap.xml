@@ -27,6 +27,16 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>http://dbztech.com/Portfolio?view=Repair</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://dbztech.com/Portfolio?view=Apps</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>http://dbztech.com/Portfolio?view=Design&amp;back=Design</loc>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
@@ -69,6 +79,11 @@
 </url>
 <url>
   <loc>http://dbztech.com/Portfolio?view=Apps&amp;back=Profile</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://dbztech.com/Portfolio?view=All</loc>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
