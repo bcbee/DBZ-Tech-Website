@@ -89,5 +89,6 @@ include('classes.php');
             </div>
             <!--<img src="Resources/Images/arrow.svg" alt="Continue" class="arrow downarrow" id="arrow1" />-->
         </div>
+        <?php #include('mobilead.php'); ?>
     </body>
 </html>
