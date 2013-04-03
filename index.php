@@ -8,6 +8,7 @@ include('classes.php');
         <link rel="stylesheet" href="/CSS/styles.css" />
         <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 1100px)' href='/CSS/tablet.css' />
         <link rel='stylesheet' media='screen and (max-width: 700px)' href='/CSS/phone.css' />
+        <?php #color::set('blue'); ?>
         <script src="scripts.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />

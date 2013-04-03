@@ -1,0 +1,17 @@
+/* BLUE (#33B5E5) CSS Document */
+
+body {
+    color: #33B5E5;
+}
+
+.ribbon {
+    background: #33B5E5;
+}
+
+.button {
+    color: #33B5E5;
+}
+
+.button:hover {
+    background: #33B5E5;
+}

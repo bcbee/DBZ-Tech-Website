@@ -14,4 +14,14 @@ class cards {
         }
     }
 }
+
+class color {
+    public static $color = "";
+    
+    public static function set($color) {
+        color::$color = $color;
+        echo '<link rel="stylesheet" href="/CSS/'.$color.'.css" />';
+    }
+}
+
 ?>
