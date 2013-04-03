@@ -1,5 +1,6 @@
 <?php
 #PHP Class File
+include('Search/search.php');
 
 class cards {
     public static function loadCards($cardsToLoad) {
