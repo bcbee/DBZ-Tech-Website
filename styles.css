@@ -1,6 +1,6 @@
 @font-face {
     font-family: Coalition;
-    src: url(http://commondatastorage.googleapis.com/dbztech/CDN/Coalition.ttf);
+    src: url(/Resources/Fonts/Coalition.ttf);
 }
 
 @font-face {
@@ -326,15 +326,15 @@ a {
 }
 
 #view2 {
-    background: url(http://commondatastorage.googleapis.com/dbztech/CDN/View-2.png);
+    background: url(/Resources/Images/View-2.png);
 }
 
 #view3 {
-    background: url(http://commondatastorage.googleapis.com/dbztech/CDN/View-3.svg);
+    background: url(/Resources/Images/View-3.svg);
 }
 
 #view4 {
-    background: url(http://commondatastorage.googleapis.com/dbztech/CDN/View-4.svg);
+    background: url(/Resources/Images/View-4.svg);
 }
 
 #profilebutton {
