@@ -16,8 +16,7 @@ include('header.php');
         } elseif ($view == "Design") {
             $cards = Array('Splat', 'MPAror');
         } elseif ($view == "Creation") {
-            #$cards = Array('CreateServer', 'CreateBrock', 'CreateGrandpa', 'CreateOldServer');
-            $cards = Array("ComingSoon");
+            $cards = Array('CreateOldServer', 'CreateServer', 'CreateBrock', 'CreateGrandpa');
         } elseif ($view == "Repair") {
             $cards = Array('ComingSoon');
         } elseif ($view == "Solutions") {
