@@ -11,7 +11,7 @@ include('header.php');
         $view = $_GET['view'];
         $viewfull = true;
         if ($view == "All") {
-            $cards = Array('Splat', 'MPAror', 'Erickson');
+            $cards = Array('Splat', 'MPAror', 'Erickson','CreateOldServer', 'CreateServer', 'CreateBrock', 'CreateGrandpa');
             $viewfull = false;
         } elseif ($view == "Design") {
             $cards = Array('Splat', 'MPAror');
