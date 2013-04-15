@@ -270,8 +270,9 @@ a {
     height: 400px;
     width: 300px;
     background: #444;
-    float: left;
+    display: inline-block;
     border-radius: 5px;
+    float: left;
 }
 
 .card a {
@@ -322,8 +323,8 @@ a {
 #Erickson {
     background: white;
     border: 3px solid black;
-    height: 394px;
-    width: 294px;
+    height: 395px;
+    width: 295px;
     color: black;
 }
 
