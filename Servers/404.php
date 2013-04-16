@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="http://dbztech.com/Servers/styles.css" />
         <script src="http://dbztech.com/Servers/scripts.js"></script>
         <title>404 | DBZ Servers</title>
     </head>

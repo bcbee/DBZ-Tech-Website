@@ -3,7 +3,7 @@
     <head>
         <link rel="stylesheet" href="http://dbztech.com/Servers/styles.css" />
         <script src="http://dbztech.com/Servers/scripts.js"></script>
-        <title>DBZ Servers</title>
+        <title>404 | DBZ Servers</title>
     </head>
     
     <body onload="load();">
@@ -11,6 +11,7 @@
             <h1>DBZ</h1>
             <h2>Servers</h2>
         </div>
+        <h1>403 Error!!</h1>
         <p>Server Status: <strong id="status">&#8226</strong></p>
         <div class="ad">
             <script type="text/javascript"><!--
