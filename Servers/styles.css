@@ -1,0 +1,57 @@
+/* BLUE (#33B5E5) CSS Document */
+
+@font-face {
+    font-family: Coalition;
+    src: url(http://dbztech.com/Resources/Fonts/Coalition.ttf);
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(http://dbztech.com/Resources/Fonts/BebasNeue.otf);
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    background: white;
+    color: #33B5E5;
+    font-family: Arial;
+    overflow: hidden;
+    background: #ffffff;
+    background: -moz-linear-gradient(top,  #ffffff 33%, #33b5e5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(33%,#ffffff), color-stop(100%,#33b5e5));
+    background: -webkit-linear-gradient(top,  #ffffff 33%,#33b5e5 100%);
+
+}
+
+.logo {
+    margin: auto;
+    width: 225px;
+    margin-top: 1%;
+}
+
+.logo h1 {
+    margin: 0px;
+    font-size: 77px;
+    font-family: Coalition;
+}
+
+.logo h2 {
+    margin: 0px;
+    margin-top: -25px;
+    font-size: 50px;
+    font-family: Bebas;
+}
+
+.ad {
+    display: inline-block;
+}
+
+#status {
+    color: red;
+    font-size: 56px;
+    position: relative;
+    top: 15px;
+}
