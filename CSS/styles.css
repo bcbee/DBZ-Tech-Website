@@ -1,9 +1,4 @@
 @font-face {
-    font-family: Coalition;
-    src: url(/Resources/Fonts/Coalition.ttf);
-}
-
-@font-face {
     font-family: Bebas;
     src: url(/Resources/Fonts/BebasNeue.otf);
 }
@@ -209,11 +204,11 @@ a img {
 }
 
 .header {
-    width: 90%;
-    height: 155px;
+    height: 65px;
     margin: auto;
     background: #444;
-    margin-top: 20px;
+    position: fixed;
+    width: 100%;
 }
 
 .content {
@@ -226,13 +221,10 @@ a img {
 
 .back {
     float: left;
-    margin-top: 8px;
-    margin-left: 8px;
 }
 
 .back img {
-    width: 100px;
-    height: 100px;
+    width: 65px;
 }
 
 .link {
@@ -253,7 +245,7 @@ a img {
 }
 
 .sidenav h1 {
-    font-family: Coalition;
+    font-family: Code;
     font-size: 20px;
     margin: 0px;
 }
@@ -309,8 +301,7 @@ a img {
 }
 
 .contentlogo {
-    float: right; 
-    margin-right: 25px; 
+    float: left; 
 }
 
 .cardcomputer {

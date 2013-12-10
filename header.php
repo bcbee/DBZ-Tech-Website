@@ -25,9 +25,8 @@
     <body>
         <div class="header">
             <a href="<?php echo $back; ?>" class="back"><img src="/Resources/Images/Back.svg" alt="Back" class="back" /></a>
-            <div class="logo contentlogo">
-                <h1>DBZ</h1>
-                <h2>Technology</h2>
+            <div class="logo contentlogo" style="width: 150px;">
+                <h1 style="font-size: 72px;">DBZ</h1>
             </div>
         </div>
         <div class="content">
