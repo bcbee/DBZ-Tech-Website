@@ -206,9 +206,10 @@ a img {
 .header {
     height: 65px;
     margin: auto;
-    background: #444;
+    background: gray;
     position: fixed;
     width: 100%;
+    top: 0px;
 }
 
 .content {
@@ -217,6 +218,7 @@ a img {
     margin: auto;
     padding-top: 1px;
     height: 600px;
+    margin-top: 90px;
 }
 
 .back {
