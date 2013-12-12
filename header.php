@@ -2,6 +2,7 @@
 <!-- This site was written and developed by Brendan Boyle of DBZ Technology -->
 <html>
     <head>
+        <link rel="stylesheet" href="/CSS/bootstrap/css/bootstrap.css" />
         <link rel="stylesheet" href="/CSS/styles.css" />
         <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 1100px)' href='/CSS/tablet.css' />
         <link rel='stylesheet' media='screen and (max-width: 700px)' href='/CSS/phone.css' />

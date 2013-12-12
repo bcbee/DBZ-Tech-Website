@@ -2,10 +2,18 @@
     width: 85%;
 }
 
+.link {
+    margin-top: 275px;
+}
+
 .link img {
     width: 100px;
 }
 
 .content { 
     width: 91%;
+}
+
+.dbzpanel {
+    width: 90%;
 }

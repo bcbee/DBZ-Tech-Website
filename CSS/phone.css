@@ -1,4 +1,4 @@
-.panel {
+.dbzpanel {
     width: 93%;
     float: none;
     margin: auto;
@@ -6,7 +6,7 @@
     height: 720px;
 }
 
-.panel h1 {
+.dbzpanel h1 {
     font-size: 30px;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .link {
-    bottom: -8px;
+    margin: 0px;
 }
 
 .link img {

@@ -42,10 +42,10 @@ include('classes.php');
             <div class="dbzpanel">
                 <div class="panelrect" style="border-bottom-right-radius: 0px;">
                     <div class="panelpadding">
+                        <a href="/Design" class="link"><img src="/Resources/Images/Link.svg" alt="Link" /></a>
                         <h1>Compelling Design</h1>
                         <h2>Simple. Flexible. Elegant.</h2>
                         <p>Design is at the core of what we do at DBZ Technology. We focus heavily on user experience and interaction to make sure your organization's new website is easy to understand and use both on a user and administrator standpoint. Once you purchase a DBZ Technology designed website we update it for free. We strive to make your organization known and we strongly and thoroughly incorporate your brand in everything we create. Don't have a brand? No problem! DBZ Technology is more than happy to work with your organization to develop strong branding and design elements for future products. Once we create a brand we make sure you get the vector files, colors, and logos so that you can develop your brand later with no haste.</p>
-                        <a href="/Design" class="link"><img src="/Resources/Images/Link.svg" alt="Link" /></a>
                     </div>
                 </div>
                 <img src="Resources/Images/PanelCorner.svg" class="panelcorner" alt="Corner" />
@@ -57,10 +57,10 @@ include('classes.php');
             <div class="dbzpanel panelleft" style="">
                 <div class="panelrect" style="border-bottom-left-radius: 0px;">
                     <div class="panelpadding">
+                        <a href="/Consulting" class="link"><img src="/Resources/Images/Link.svg" alt="Link" /></a>
                         <h1>Consulting</h1>
                         <h2>Affordable Consulting for Computing Solutions</h2>
                         <p>DBZ Technology also specializes in end to end product solutions. Weather your computer needs a quick tune up or you need a web application designed to handle massive amounts of data, DBZ Technology is always there for support. We work with you one on one to ensure that our solution fits your needs perfectly. Let's say that you need a new IT infrastructure as cheaply as possible. No Problem! DBZ Technology can analyze your current situation, make a plan, build new computers for almost 50% off retail, make the switch in under 3 days, and transfer all of your information to the new system.</p>
-                        <a href="/Consulting" class="link"><img src="/Resources/Images/Link.svg" alt="Link" /></a>
                     </div>
                 </div>
                 <img src="Resources/Images/PanelCorner2.svg" class="panelcorner panelcornerleft" alt="Corner" />
@@ -90,6 +90,11 @@ include('classes.php');
                 <br />
                 <i>Email: <span itemprop="email"><a href="mailto:brendan@dbztech.com">brendan@dbztech.com</a></span></i>
             </div>
+            <!--
+            <a class="info" href="/Resources/Images/Business-Card.pdf">
+                <img src="/Resources/Images/Business-Card.svg" alt="Download Business Card" />
+            </a>
+            -->
             <!--<img src="Resources/Images/arrow.svg" alt="Continue" class="arrow downarrow" id="arrow1" />-->
         </div>
         <?php include('mobilead.php'); ?>
