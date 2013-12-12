@@ -27,6 +27,10 @@ a img {
     border: none;
 }
 
+a:hover {
+    color: #BFFF00;
+}
+
 .ribbon {
     height: 800px;
     margin: 0px 83px;
@@ -84,7 +88,7 @@ a img {
     transform:rotate(90deg);
 }
 
-.panel {
+.dbzpanel {
     width: 60%;
     height: 500px;
     float: right;
@@ -94,13 +98,13 @@ a img {
     z-index: 4;
 }
 
-.panel h1 {
+.dbzpanel h1 {
     font-family: Code;
     font-size: 60px;
     margin: 0px;
 }
 
-.panel h2 {
+.dbzpanel h2 {
     font-family: Bebas;
     font-size: 30px;
     margin: 0px;
@@ -166,7 +170,7 @@ a img {
 .smallbutton {
     height: 100px;
     width: 150px;
-    margin: 8px;
+    margin: 6px;
 }
 
 .bigbutton {
@@ -200,7 +204,8 @@ a img {
 }
 
 .bigbutton p {
-    font-size: 90px;
+    font-size: 83px;
+    margin-top: -5px;
 }
 
 .header {
@@ -216,7 +221,6 @@ a img {
     background: white;
     width: 90%;
     margin: auto;
-    padding-top: 1px;
     height: 600px;
     margin-top: 90px;
 }
@@ -350,7 +354,7 @@ a img {
 
 #profilebutton {
     font-size: 52px; 
-    margin-top: 23px;
+    margin-top: 20px;
 }
 
 #repairbutton {
@@ -361,5 +365,5 @@ a img {
 
 #appsbutton {
     font-size: 66px;
-    margin-top: 16px;
+    margin-top: 10px;
 }

@@ -5,6 +5,7 @@ include('classes.php');
 <!-- This site was written and developed by Brendan Boyle of DBZ Technology -->
 <html>
     <head>
+        <link rel="stylesheet" href="/CSS/bootstrap/css/bootstrap.css" />
         <link rel="stylesheet" href="/CSS/styles.css" />
         <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 1100px)' href='/CSS/tablet.css' />
         <link rel='stylesheet' media='screen and (max-width: 700px)' href='/CSS/phone.css' />
@@ -38,7 +39,7 @@ include('classes.php');
             </div>
         </div>
         <div class="view" id="view2">
-            <div class="panel">
+            <div class="dbzpanel">
                 <div class="panelrect" style="border-bottom-right-radius: 0px;">
                     <div class="panelpadding">
                         <h1>Compelling Design</h1>
@@ -53,7 +54,7 @@ include('classes.php');
             <!--<img src="Resources/Images/arrow.svg" alt="Continue" class="arrow downarrow" id="arrow1" />-->
         </div>
         <div class="view" id="view3">
-            <div class="panel panelleft" style="">
+            <div class="dbzpanel panelleft" style="">
                 <div class="panelrect" style="border-bottom-left-radius: 0px;">
                     <div class="panelpadding">
                         <h1>Consulting</h1>
