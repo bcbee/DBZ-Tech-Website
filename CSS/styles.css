@@ -183,7 +183,7 @@ a:hover {
     height: 40px;
     width: 245px;
     margin: 8px;
-    margin-left: 80px;
+    margin-left: 30px;
     font-size: 30px;
     margin-top: 0px;
 }
@@ -217,11 +217,13 @@ a:hover {
     top: 0px;
 }
 
+.header h1 {
+    font-size: 68px;
+}
+
 .content {
-    background: white;
-    width: 90%;
+    width: 100%;
     margin: auto;
-    height: 600px;
     margin-top: 90px;
 }
 
@@ -264,12 +266,15 @@ a:hover {
     margin: 17px;
     margin-top: 95px;
     margin-bottom: 10px;
-}.link img {
+}
+
+.link img {
     width: 150px;
     height: 150px;
 }
 
 .card {
+    /*
     margin: 8px;
     padding: 15px;
     height: 400px;
@@ -278,16 +283,30 @@ a:hover {
     display: inline-block;
     border-radius: 5px;
     float: left;
+    */
+    
+    background: green;
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    margin: 5px;
+    vertical-align: top;
+    border-radius: 5px;
+    background: #444;
 }
 
 .card a {
+    /*
     margin-left: 30px;
+    */
 }
 
 .cardholder {
+    /*
     background: white; 
     width: 100%;
     float: left;
+    */
 }
 
 .info {
@@ -327,6 +346,7 @@ a:hover {
     height: 400px;
     width: 300px;
     color: black;
+    background: orange;
 }
 
 #arrow1 {
