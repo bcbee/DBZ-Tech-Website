@@ -1,7 +1,7 @@
 <h1>Portfolio</h1>
-<a class="button longbutton" href="/Portfolio?back=Profile">All</a>
-<a class="button longbutton" href="/Portfolio?view=Design&back=Profile">Design</a>
-<a class="button longbutton" href="/Creation?back=Profile">Computer Creation</a>
-<a class="button longbutton" href="/Repair?back=Profile">Computer Repair</a>
-<a class="button longbutton" href="/Solutions?back=Profile">IT Solutions</a>
-<a class="button longbutton" href="/Apps?back=Profile">Apps</a>
+<a class="btn btn-success longbutton" href="/Portfolio?back=Profile">All</a><br />
+<a class="btn btn-success longbutton" href="/Portfolio?view=Design&back=Profile">Design</a><br />
+<a class="btn btn-success longbutton" href="/Creation?back=Profile">Computer Creation</a><br />
+<a class="btn btn-success longbutton" href="/Repair?back=Profile">Computer Repair</a><br />
+<a class="btn btn-success longbutton" href="/Solutions?back=Profile">IT Solutions</a><br />
+<a class="btn btn-success longbutton" href="/Apps?back=Profile">Apps</a><br />

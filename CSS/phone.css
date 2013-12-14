@@ -92,10 +92,6 @@
     margin-top: 10px;
 }
 
-.longbutton {
-    margin-left: 22px;
-}
-
 .header {
     height: 45px;
 }
@@ -108,4 +104,13 @@
 }
 
 .header img {
+}
+
+.rightcontent {
+    width: 90%;
+    margin-left: 0px;
+}
+
+.leftcontentlogo {
+    top: -20px;
 }

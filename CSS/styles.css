@@ -180,17 +180,8 @@ a:hover {
 }
 
 .longbutton {
-    height: 40px;
     width: 245px;
-    margin: 8px;
-    margin-left: 30px;
-    font-size: 30px;
-    margin-top: 0px;
-}
-
-.longbutton:hover {
-    background: white;
-    color: black;
+    margin: 5px;
 }
 
 .centerbutton {
@@ -211,10 +202,13 @@ a:hover {
 .header {
     height: 65px;
     margin: auto;
-    background: gray;
+    background: #BFFF00;
     position: fixed;
     width: 100%;
     top: 0px;
+    opacity: .95;
+    color: black;
+    z-index: 10;
 }
 
 .header h1 {
@@ -225,6 +219,36 @@ a:hover {
     width: 100%;
     margin: auto;
     margin-top: 90px;
+}
+
+.leftcontentlogo {
+    width: 250px;
+    height: 250px;
+    border: 5px solid white;
+    background-size: 500px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+}
+
+.rightcontent {
+    display: inline-block;
+    width: 50%;
+    margin-left: 15px;
+}
+
+.rightcontent h1 {
+    font-family: Code;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.rightcontent h2 {
+    font-family: Bebas;
+    font-size: 30px;
+    margin: 0px;
+    letter-spacing: 4px;
 }
 
 .back {
@@ -240,51 +264,12 @@ a:hover {
     margin-top: 260px;
 }
 
-.sidenav {
-    background: url(/Resources/Images/SideNav.svg);
-    width: 400px;
-    height: 595px;
-    float: right;
-    color: black;
-    padding-top: 5px;
-}
-
-.sidenav h1 {
-    font-family: Code;
-    font-size: 20px;
-    margin: 0px;
-}
-
-.sidenav h2 {
-    font-family: Bebas;
-    font-size: 30px;
-    margin: 0px;
-    letter-spacing: 4px;
-}
-
-.sidenav p {
-    margin: 17px;
-    margin-top: 95px;
-    margin-bottom: 10px;
-}
-
 .link img {
     width: 150px;
     height: 150px;
 }
 
 .card {
-    /*
-    margin: 8px;
-    padding: 15px;
-    height: 400px;
-    width: 300px;
-    background: #444;
-    display: inline-block;
-    border-radius: 5px;
-    float: left;
-    */
-    
     background: green;
     display: inline-block;
     height: 400px;
@@ -293,20 +278,6 @@ a:hover {
     vertical-align: top;
     border-radius: 5px;
     background: #444;
-}
-
-.card a {
-    /*
-    margin-left: 30px;
-    */
-}
-
-.cardholder {
-    /*
-    background: white; 
-    width: 100%;
-    float: left;
-    */
 }
 
 .info {

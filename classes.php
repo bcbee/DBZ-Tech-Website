@@ -39,7 +39,7 @@ class portfolio {
         }
         array_push($cards, 'You', 'Ad');
         if ($viewfull) {
-            echo '<div style="width: 100%; height: 50px; margin-top: 15px;"><a class="button longbutton centerbutton" href="/Portfolio?view=All">View Full Portfolio</a></div>';
+            echo '<div style="width: 100%; height: 50px; margin-top: 15px;"><a class="btn btn-success longbutton" href="/Portfolio?view=All">View Full Portfolio</a></div>';
         }
         cards::loadCards($cards);
     }
