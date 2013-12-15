@@ -79,23 +79,22 @@ include('classes.php');
                 <a class="button smallbutton" href="/Apps"><p id="appsbutton">Apps</p></a>
                 <a class="button bigbutton" href="mailto:brendan@dbztech.com"><p>@Contact</p></a>
             </div>
-            <div class="info" itemscope itemtype="http://schema.org/Organization">
-                <h1><span itemprop="name">DBZ Technology</span></h1>
-                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                  <i>Location: <span itemprop="addressLocality">Woodbury</span>,
-                  <span itemprop="addressRegion">MN</span></i>
+            <div class="bc" itemscope itemtype="http://schema.org/Organization">
+                <div class="logo bclogo" itemprop="name">
+                    <h1>DBZ</h1>
+                    <h2>Technology</h2>
                 </div>
-                <br />
-                <i>Tel: <span itemprop="telephone"><a href="tel:6513469760">(651)-346-9760</a></span></i>
-                <br />
-                <i>Email: <span itemprop="email"><a href="mailto:brendan@dbztech.com">brendan@dbztech.com</a></span></i>
+                
+                <a href="/Resources/Images/Business-Card.pdf" class="btn btn-default" style="float: left;
+margin: 22px;">Download Business Card</a>
+                
+                <div class="bccontact" itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
+                    <h2 itemprop="name">Brendan Boyle</h2>
+                    <h2 itemprop="description">Founder of DBZ Technology</h2>
+                    <b><i>E:</i></b> <a itemprop="email" href="mailto:brendan@dbztech.com">brendan@dbztech.com</a><br />
+                    <b><i>T:</i></b> <a itemprop="telephone" href="tel:6513469760">(651)-346-9760</a>
+                </div>
             </div>
-            <!--
-            <a class="info" href="/Resources/Images/Business-Card.pdf">
-                <img src="/Resources/Images/Business-Card.svg" alt="Download Business Card" />
-            </a>
-            -->
-            <!--<img src="Resources/Images/arrow.svg" alt="Continue" class="arrow downarrow" id="arrow1" />-->
         </div>
         <?php include('mobilead.php'); ?>
     </body>

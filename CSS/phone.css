@@ -64,8 +64,9 @@
     font-size: 53px;
 }
 
-.info {
-    top: 250px;
+.bc {
+    margin-top: 90px;
+    top: 200px;
 }
 
 .back img {

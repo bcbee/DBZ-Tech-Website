@@ -280,13 +280,50 @@ a:hover {
     background: #444;
 }
 
-.info {
-    background: #444;
-    width: 240px;
+.bc {
+    background: #BFFF00;
+    color: black;
+    width: 350px;
+    height: 200px;
     margin: auto;
     position: relative;
     top: 345px;
     border-radius: 5px;
+}
+
+.bclogo {
+    width: 90px;
+    float: right;
+    margin: 7px 9px;
+}
+
+.bclogo h1 {
+    font-size: 50px;
+}
+
+.bclogo h2 {
+    font-size: 22px;
+    margin-top: -15px;
+}
+
+.bccontact {
+    text-align: left;
+    float: left;
+    margin: 8px;
+}
+
+.bccontact a {
+    color: black;
+}
+
+.bccontact a:hover {
+    color: white;
+}
+
+.bccontact h2 {
+    font-family: Code;
+    font-size: 19px;
+    margin: 0px;
 }
 
 .contentlogo {
