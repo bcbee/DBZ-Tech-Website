@@ -34,7 +34,7 @@ include('classes.php');
                     <h1>DBZ</h1>
                     <h2>Technology</h2>
                 </div>
-                <p><a href="/Design">Design</a> &#8226 <a href="/Consulting">Consulting</a> &#8226 <a href="/Creation">Creation</a> &#8226 <a href="/Repair">Repair</a> &#8226 <a href="/Apps">Apps</a> &#8226 <a href="http://blogs.dbztech.com">Hosting</a></p>
+                <p><a href="/Design">Design</a> &#8226; <a href="/Consulting">Consulting</a> &#8226; <a href="/Creation">Creation</a> &#8226; <a href="/Repair">Repair</a> &#8226; <a href="/Apps">Apps</a> &#8226; <a href="http://blogs.dbztech.com">Hosting</a></p>
                 <img src="Resources/Images/arrow.svg" alt="Continue" class="arrow downarrow" id="arrow1" />
             </div>
         </div>
