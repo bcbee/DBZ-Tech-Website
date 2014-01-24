@@ -1,11 +1,11 @@
 @font-face {
     font-family: Bebas;
-    src: url(/Resources/Fonts/BebasNeue.otf);
+    src: url(/Resources/Fonts/BebasNeue.woff);
 }
 
 @font-face {
     font-family: Code;
-    src: url(/Resources/Fonts/CodeBold.otf);
+    src: url(/Resources/Fonts/CodeBold.woff);
 }
 
 html,body {
@@ -257,6 +257,7 @@ a:hover {
 
 .back img {
     width: 65px;
+    height: 65px;
 }
 
 .link {
