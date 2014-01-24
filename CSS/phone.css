@@ -67,10 +67,22 @@
 .bc {
     margin-top: 90px;
     top: 200px;
+    width: 290px;
+}
+
+.bclogo {
+    float: none;
+    margin: auto;
+}
+
+.bcdownload {
+    float: none;
+    margin: auto;
 }
 
 .back img {
     width: 45px;
+    height: 45px;
     margin-top: 0px;
 }
 
@@ -114,4 +126,17 @@
 
 .leftcontentlogo {
     top: -20px;
+}
+
+.header h1 {
+    right: 0px;
+    width: 88px;
+}
+
+#panel1 {
+    border-bottom-right-radius: 10px;
+}
+
+#panel2 {
+    border-bottom-left-radius: 10px;
 }

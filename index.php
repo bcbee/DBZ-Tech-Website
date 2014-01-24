@@ -40,7 +40,7 @@ include('classes.php');
         </div>
         <div class="view" id="view2">
             <div class="dbzpanel">
-                <div class="panelrect" style="border-bottom-right-radius: 0px;">
+                <div class="panelrect" id="panel1">
                     <div class="panelpadding">
                         <a href="/Design" class="link"><img src="/Resources/Images/Link.svg" alt="Link" /></a>
                         <h1>Compelling Design</h1>
@@ -55,7 +55,7 @@ include('classes.php');
         </div>
         <div class="view" id="view3">
             <div class="dbzpanel panelleft" style="">
-                <div class="panelrect" style="border-bottom-left-radius: 0px;">
+                <div class="panelrect" id="panel2">
                     <div class="panelpadding">
                         <a href="/Consulting" class="link"><img src="/Resources/Images/Link.svg" alt="Link" /></a>
                         <h1>Consulting</h1>
@@ -85,8 +85,7 @@ include('classes.php');
                     <h2>Technology</h2>
                 </div>
                 
-                <a href="/Resources/Images/Business-Card.pdf" class="btn btn-default" style="float: left;
-margin: 22px;">Download Business Card</a>
+                <a href="/Resources/Images/Business-Card.pdf" class="btn btn-default bcdownload">Download Business Card</a>
                 
                 <div class="bccontact" itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
                     <h2 itemprop="name">Brendan Boyle</h2>

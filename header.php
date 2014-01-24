@@ -26,7 +26,7 @@
     <body>
         <div class="header">
             <a href="<?php echo $back; ?>" class="back"><img src="/Resources/Images/Back.svg" alt="Back" class="back" /></a>
-            <div class="logo contentlogo" style="width: 150px;">
+            <div class="logo contentlogo">
                 <h1>DBZ</h1>
             </div>
         </div>

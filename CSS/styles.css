@@ -213,6 +213,7 @@ a:hover {
 
 .header h1 {
     font-size: 68px;
+    width: 120px;
 }
 
 .content {
@@ -327,6 +328,11 @@ a:hover {
     margin: 0px;
 }
 
+.bcdownload {
+    float: left;
+    margin: 22px;
+}
+
 .contentlogo {
     float: left; 
 }
@@ -366,8 +372,16 @@ a:hover {
     background: url(/Resources/Images/View-2.png);
 }
 
+#panel1 {
+    border-bottom-right-radius: 0px;
+}
+
 #view3 {
     background: url(/Resources/Images/View-3.svg);
+}
+
+#panel2 {
+    border-bottom-left-radius: 0px;
 }
 
 #view4 {
