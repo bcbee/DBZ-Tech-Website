@@ -219,7 +219,8 @@ a:hover {
 .content {
     width: 100%;
     margin: auto;
-    margin-top: 90px;
+    position: relative;
+    top: 90px;
 }
 
 .leftcontentlogo {
@@ -406,4 +407,9 @@ a:hover {
 
 #Ad {
     padding: 0px;
+}
+
+#contactform {
+    width: 500px;
+    margin: auto;
 }
