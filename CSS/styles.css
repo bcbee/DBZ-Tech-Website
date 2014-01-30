@@ -413,3 +413,7 @@ a:hover {
     width: 500px;
     margin: auto;
 }
+
+#recaptcha_area, #recaptcha_table {
+    margin: auto;
+}

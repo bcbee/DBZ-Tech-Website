@@ -66,7 +66,7 @@ include('classes.php');
                 <a class="button smallbutton" href="/Profile"><p id="profilebutton">Profile</p></a>
                 <a class="button smallbutton" href="/Repair"><p id="repairbutton">Computer Repair</p></a>
                 <a class="button smallbutton" href="/Apps"><p id="appsbutton">Apps</p></a>
-                <a class="button bigbutton" href="mailto:brendan@dbztech.com"><p>@Contact</p></a>
+                <a class="button bigbutton" href="/Contact"><p>@Contact</p></a>
             </div>
             <div class="bc" itemscope itemtype="http://schema.org/Organization">
                 <div class="logo bclogo" itemprop="name">
@@ -79,7 +79,7 @@ include('classes.php');
                 <div class="bccontact" itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
                     <h2 itemprop="name">Brendan Boyle</h2>
                     <h2 itemprop="description">Founder of DBZ Technology</h2>
-                    <b><i>E:</i></b> <a itemprop="email" href="mailto:brendan@dbztech.com">brendan@dbztech.com</a><br />
+                    <b><i>E:</i></b> <a itemprop="email" href="/Contact">brendan@dbztech.com</a><br />
                     <b><i>T:</i></b> <a itemprop="telephone" href="tel:6513469760">(651)-346-9760</a>
                 </div>
             </div>
