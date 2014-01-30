@@ -18,7 +18,7 @@ if (isset($_POST['name'])) {
         //create array of data to be posted
         $post_data['to'] = 'brendancboyle@me.com';
         $post_data['sub'] = 'DBZ Website Contact';
-        $post_data['sk'] = 'Hunter3';
+        $post_data['sk'] = $dbzmailsk;
         $post_data['msg'] = $subject." (".$name."): ".$message;
          
         //traverse array and prepare data for posting (key1=value1)
