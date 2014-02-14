@@ -9,11 +9,11 @@
 }
 
 html,body {
-    height: 100%;
     width: 100%;
     margin: 0px;
     text-align: center;
-    background: black;
+    background: url('/Resources/Images/Background/Black.svg');
+    background-size: 5%;
     color: #BFFF00;
     font-family: Arial;
 }
@@ -76,6 +76,11 @@ a:hover {
     margin-top: -25px;
     font-size: 50px;
     font-family: Bebas;
+}
+
+.indexlogo {
+    position: relative;
+    top: 10%;
 }
 
 .arrow {
@@ -202,18 +207,19 @@ a:hover {
 .header {
     height: 65px;
     margin: auto;
-    background: #BFFF00;
+    background: #242f38;
     position: fixed;
     width: 100%;
     top: 0px;
     opacity: .95;
-    color: black;
+    color: #BFFF00;
     z-index: 10;
 }
 
 .header h1 {
     font-size: 68px;
     width: 120px;
+    margin-left: 15px;
 }
 
 .content {

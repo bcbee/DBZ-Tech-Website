@@ -10,21 +10,29 @@ include('classes.php');
         <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 1100px)' href='/CSS/tablet.css' />
         <link rel='stylesheet' media='screen and (max-width: 700px)' href='/CSS/phone.css' />
         <?php #color::set('blue'); ?>
-        <script src="scripts.js"></script>
+        <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+        <script src="/JS/scripts.js"></script>
+        <script src="/JS/index.js"></script>
+        <script src="/CSS/bootstrap/js/bootstrap.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <title>DBZ Technology | Home</title>
     </head>
     <body>
         <?php include('analyticstracking.php'); ?>
+        <div class="header" style="display: none;">
+            <div class="logo contentlogo">
+                <h1>DBZ</h1>
+            </div>
+        </div>
         <div class="view" id="view1">
-            <div style="position: relative; top: 10%;">
+            <div class="indexlogo">
                 <div class="logo">
                     <h1>DBZ</h1>
                     <h2>Technology</h2>
                 </div>
                 <p><a href="/Design">Design</a> &#8226; <a href="/Consulting">Consulting</a> &#8226; <a href="/Creation">Creation</a> &#8226; <a href="/Repair">Repair</a> &#8226; <a href="/Apps">Apps</a> &#8226; <a href="http://blogs.dbztech.com">Hosting</a></p>
-                <img src="Resources/Images/arrow.svg" alt="Continue" class="arrow downarrow" id="arrow1" />
+                <a href="#view2"><img src="Resources/Images/arrow.svg" alt="Continue" class="arrow downarrow" id="arrow1" /></a>
             </div>
         </div>
         <div class="view" id="view2">

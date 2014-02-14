@@ -6,7 +6,9 @@
         <link rel="stylesheet" href="/CSS/styles.css" />
         <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 1100px)' href='/CSS/tablet.css' />
         <link rel='stylesheet' media='screen and (max-width: 700px)' href='/CSS/phone.css' />
-        <script src="scripts.js"></script>
+        <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+        <script src="/JS/scripts.js"></script>
+        <script src="/CSS/bootstrap/js/bootstrap.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <title><?php echo 'DBZ Technology | '.$title; ?></title>

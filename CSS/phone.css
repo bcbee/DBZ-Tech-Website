@@ -1,3 +1,7 @@
+body {
+    background-size: 15%;
+}
+
 .dbzpanel {
     width: 93%;
     float: none;
@@ -5,6 +9,11 @@
     top: 40px;
     height: 720px;
 }
+
+.indexlogo {
+    top: 3%;
+}
+
 
 .dbzpanel h1 {
     font-size: 30px;
@@ -86,6 +95,10 @@
     margin-top: 0px;
 }
 
+.content {
+    top: 60px;
+}
+
 .contentlogo h1 {
     font-size: 65px;
 }
@@ -133,10 +146,18 @@
     width: 88px;
 }
 
+#Ad {
+    display: none;
+}
+
 #panel1 {
     border-bottom-right-radius: 10px;
 }
 
 #panel2 {
     border-bottom-left-radius: 10px;
+}
+
+#view1 {
+    height: 500px;
 }
