@@ -350,6 +350,33 @@ a:hover {
     border-radius: 5px;
 }
 
+.roundbutton {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #BFFF00;
+    color: black;
+    border-radius: 50%;
+    margin: 15px;
+    padding-top: 15px;
+    vertical-align: middle;
+    -webkit-transition: width .5s, height .5s, background .5s, margin .5s, padding-top .5s, color .5s;
+    transition: width .5s, height .5s, background .5s, margin .5s, padding-top .5s, color .5s;
+}
+
+.roundbutton:hover {
+    width: 110px;
+    height: 110px;
+    background: white;
+    margin: 5px;
+    padding-top: 30px;
+    color: black;
+}
+
+.roundbuttonicon {
+    font-size: 200%;
+}
+
 #Splat {
     background: #ff3019; /* Old browsers */
     background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6+ */

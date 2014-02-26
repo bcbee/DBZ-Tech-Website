@@ -31,7 +31,14 @@ include('classes.php');
                     <h1>DBZ</h1>
                     <h2>Technology</h2>
                 </div>
-                <p><a href="/Design">Design</a> &#8226; <a href="/Consulting">Consulting</a> &#8226; <a href="/Creation">Creation</a> &#8226; <a href="/Repair">Repair</a> &#8226; <a href="/Apps">Apps</a> &#8226; <a href="http://blogs.dbztech.com">Hosting</a></p>
+                <div class="indexintrolinks">
+                    <a href="/Design" class="roundbutton"><span class="glyphicon glyphicon-pencil roundbuttonicon"></span><br />Design</a>
+                    <a href="/Technology" class="roundbutton"><span class="glyphicon glyphicon-flash roundbuttonicon"></span><br />Technology</a>
+                    <a href="/Innovation" class="roundbutton"><span class="glyphicon glyphicon-certificate roundbuttonicon"></span><br />Innovation</a>
+                    <a href="/Apps" class="roundbutton"><span class="glyphicon glyphicon-phone roundbuttonicon"></span><br />Apps</a>
+                    <a href="/Portfolio" class="roundbutton"><span class="glyphicon glyphicon-user roundbuttonicon"></span><br />Portfolio</a>
+                    <a href="/Contact" class="roundbutton"><span class="glyphicon glyphicon-send roundbuttonicon"></span><br />Contact</a>
+                </div>
                 <a href="#view2"><img src="Resources/Images/arrow.svg" alt="Continue" class="arrow downarrow" id="arrow1" /></a>
             </div>
         </div>
