@@ -31,7 +31,7 @@ include('classes.php');
                     <h1>DBZ</h1>
                     <h2>Technology</h2>
                 </div>
-                <div class="indexintrolinks">
+                <div class="indexbuttons">
                     <a href="/Design" class="roundbutton"><span class="glyphicon glyphicon-pencil roundbuttonicon"></span><br />Design</a>
                     <a href="/Technology" class="roundbutton"><span class="glyphicon glyphicon-flash roundbuttonicon"></span><br />Technology</a>
                     <a href="/Innovation" class="roundbutton"><span class="glyphicon glyphicon-certificate roundbuttonicon"></span><br />Innovation</a>
