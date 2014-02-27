@@ -446,8 +446,7 @@ a:hover {
 }
 
 #contactform {
-    width: 500px;
-    margin: auto;
+    margin: 20px;
 }
 
 #recaptcha_area, #recaptcha_table {
