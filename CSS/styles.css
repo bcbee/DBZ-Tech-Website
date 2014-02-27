@@ -128,6 +128,7 @@ a:hover {
     padding-top: 15px;
     text-align: left;
     border-radius: 10px;
+    border: 5px solid #666;
 }
 
 .panelcorner {
@@ -358,6 +359,7 @@ a:hover {
     margin: 15px;
     padding-top: 15px;
     vertical-align: middle;
+    text-align: center;
     -webkit-transition: width .5s, height .5s, background .5s, margin .5s, padding-top .5s, color .5s;
     transition: width .5s, height .5s, background .5s, margin .5s, padding-top .5s, color .5s;
 }
@@ -376,6 +378,11 @@ a:hover {
 }
 
 .indexbuttons {
+    margin-top: 15px;
+}
+
+.viewbutton {
+    width: 100%;
     margin-top: 15px;
 }
 
