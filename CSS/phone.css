@@ -155,6 +155,11 @@ body {
     padding: 15px;
 }
 
+#contactform {
+    width: auto;
+    margin: 20px;
+}
+
 #Ad {
     display: none;
 }

@@ -453,7 +453,8 @@ a:hover {
 }
 
 #contactform {
-    margin: 20px;
+    width: 500px;
+    margin: auto;
 }
 
 #recaptcha_area, #recaptcha_table {
