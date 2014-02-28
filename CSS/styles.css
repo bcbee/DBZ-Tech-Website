@@ -357,7 +357,7 @@ a:hover {
     color: black;
     border-radius: 50%;
     margin: 15px;
-    padding-top: 15px;
+    padding-top: 20px;
     vertical-align: middle;
     text-align: center;
     -webkit-transition: width .5s, height .5s, background .5s, margin .5s, padding-top .5s, color .5s;
