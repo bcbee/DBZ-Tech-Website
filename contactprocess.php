@@ -9,7 +9,7 @@ if (isset($_POST['name'])) {
     } else {
         // Your code here to handle a successful verification
         $name = $_POST['name'];
-        $email = $_POST['email'];
+        $email = $_POST['from'];
         $message = $_POST['message'];
         $subject = $_POST['subject'];
     
@@ -19,7 +19,7 @@ if (isset($_POST['name'])) {
         $post_data['to'] = 'brendancboyle@me.com';
         $post_data['sub'] = 'DBZ Website Contact';
         $post_data['sk'] = $dbzmailsk;
-        $post_data['msg'] = $subject." (".$name."): ".$message;
+        $post_data['msg'] = $subject." (".$name.", ".$email."): ".$message;
          
         //traverse array and prepare data for posting (key1=value1)
         foreach ( $post_data as $key => $value) {

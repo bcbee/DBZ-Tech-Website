@@ -26,6 +26,7 @@ include('classes.php');
             </div>
         </div>
         <div class="view" id="view1">
+            <!-- DBZ Technology -->
             <div class="indexlogo">
                 <div class="logo">
                     <h1>DBZ</h1>
@@ -43,6 +44,7 @@ include('classes.php');
             </div>
         </div>
         <div class="view" id="view2">
+            <!-- Design -->
             <div class="dbzpanel">
                 <div class="panelrect" id="panel1">
                     <div class="panelpadding">
@@ -57,6 +59,7 @@ include('classes.php');
             <div class="ribbon"></div>
         </div>
         <div class="view" id="view3">
+            <!-- Technology -->
             <div class="dbzpanel panelleft" style="">
                 <div class="panelrect" id="panel2">
                     <div class="panelpadding">
@@ -69,33 +72,11 @@ include('classes.php');
                 <img src="Resources/Images/PanelCorner2.svg" class="panelcorner panelcornerleft" alt="Corner" />
             </div>
             <div class="ribbon" style="height:50px;"></div>
-            <div class="ribbon" style="left: 0px; margin-top: 250px;"></div>
+            <div class="ribbon" style="left: 0px; margin-top: 250px; height: 550px;"></div>
             <div class="ribbon horizontal" style=""><div class="block" style="width: 283px;"><img src="Resources/Images/FoldDown.svg" alt="Fold Down" style="margin-left: 83px" /></div><div class="block" style="width: 283px; float: right; margin-top: -200px;"><img src="Resources/Images/FoldLeft.svg" alt="Fold Left" style="margin-right: 83px" /></div></div>
         </div>
         <div class="view" id="view4">
-            <div class="ribbon" style="left: 0px; height: 50px;"></div>
-            <div class="ribbon horizontal"><div class="block" style="width: 283px; background: white;"><img src="Resources/Images/FoldRight.svg" alt="Fold Right" style="margin-left: 83px" /></div></div>
-            <div class="buttonholder">
-                <a class="button smallbutton" href="/Profile"><p id="profilebutton">Profile</p></a>
-                <a class="button smallbutton" href="/Repair"><p id="repairbutton">Computer Repair</p></a>
-                <a class="button smallbutton" href="/Apps"><p id="appsbutton">Apps</p></a>
-                <a class="button bigbutton" href="/Contact"><p>@Contact</p></a>
-            </div>
-            <div class="bc" itemscope itemtype="http://schema.org/Organization">
-                <div class="logo bclogo" itemprop="name">
-                    <h1>DBZ</h1>
-                    <h2>Technology</h2>
-                </div>
-                
-                <a href="/Resources/Images/Business-Card.pdf" class="btn btn-default bcdownload">Download Business Card</a>
-                
-                <div class="bccontact" itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
-                    <h2 itemprop="name">Brendan Boyle</h2>
-                    <h2 itemprop="description">Founder of DBZ Technology</h2>
-                    <b><i>E:</i></b> <a itemprop="email" href="/Contact">brendan@dbztech.com</a><br />
-                    <b><i>T:</i></b> <a itemprop="telephone" href="tel:6513469760">(651)-346-9760</a>
-                </div>
-            </div>
+            <!-- Innovation -->
         </div>
         <?php include('mobilead.php'); ?>
     </body>

@@ -429,7 +429,8 @@ a:hover {
 }
 
 #view4 {
-    background: url(/Resources/Images/View-4.svg);
+    /*background: url(/Resources/Images/View-4.svg);*/
+    background: white;
 }
 
 #profilebutton {
