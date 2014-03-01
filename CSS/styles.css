@@ -57,6 +57,7 @@ a:hover {
 
 .view {
     height: 800px;
+    overflow: hidden;
 }
 
 .logo {
@@ -386,6 +387,27 @@ a:hover {
     margin-top: 15px;
 }
 
+.viewtitle {
+    margin-top: 0px;
+    font-family: Bebas;
+    position: relative;
+    top: 85px;
+    font-size: 1000%;
+}
+
+.apple {
+    vertical-align: bottom;
+}
+
+.ipad {
+    height: 550px;
+    margin-top: 50px;
+}
+
+.iphone {
+    height: 285px
+}
+
 #Splat {
     background: #ff3019; /* Old browsers */
     background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6+ */
@@ -429,8 +451,17 @@ a:hover {
 }
 
 #view4 {
-    /*background: url(/Resources/Images/View-4.svg);*/
-    background: white;
+    display: none;
+    background: url(/Resources/Images/View-4.png);
+}
+
+#view5 {
+    background: url(/Resources/Images/View-4.png);
+}
+
+#view6 {
+    display: none;
+    background: url(/Resources/Images/View-4.png);
 }
 
 #profilebutton {

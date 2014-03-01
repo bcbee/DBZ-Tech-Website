@@ -14,7 +14,7 @@ include('classes.php');
         <script src="/JS/scripts.js"></script>
         <script src="/JS/index.js"></script>
         <script src="/CSS/bootstrap/js/bootstrap.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <title>DBZ Technology | Home</title>
     </head>
@@ -77,6 +77,22 @@ include('classes.php');
         </div>
         <div class="view" id="view4">
             <!-- Innovation -->
+            <!--<a href="/Innovation" class="btn btn-success viewbutton"><span class="glyphicon glyphicon-certificate roundbuttonicon"></span><br />Innovation</a>-->
+            <h1 class="viewtitle">Innovation</h1>
+        </div>
+        <div class="view" id="view5">
+            <!-- Innovation -->
+            <!--<a href="/Innovation" class="btn btn-success viewbutton"><span class="glyphicon glyphicon-certificate roundbuttonicon"></span><br />Innovation</a>-->
+            <h1 class="viewtitle">Apps</h1>
+            <img src="/Resources/Images/iPhone.png" class="apple iphone" alt="iPhone Website" />
+            <img src="/Resources/Images/iPhone-Overwatch.png" class="apple iphone" alt="iPhone Website" />
+            <img src="/Resources/Images/iPad.png" class="apple ipad" alt="iPad Website" />
+            <img src="/Resources/Images/iPad-Overwatch.png" class="apple ipad" alt="iPad Website" />
+        </div>
+        <div class="view" id="view6">
+            <!-- Innovation -->
+            <!--<a href="/Innovation" class="btn btn-success viewbutton"><span class="glyphicon glyphicon-certificate roundbuttonicon"></span><br />Innovation</a>-->
+            <h1 class="viewtitle">Portfolio</h1>
         </div>
         <?php include('mobilead.php'); ?>
     </body>

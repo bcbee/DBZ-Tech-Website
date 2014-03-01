@@ -21,3 +21,12 @@ body {
 .dbzpanel {
     width: 90%;
 }
+
+.ipad {
+    height: 500px;
+    margin-top: 100px;
+}
+
+.iphone {
+    height: 235px
+}
