@@ -82,8 +82,8 @@ include('classes.php');
         </div>
         <div class="view" id="view5">
             <!-- Innovation -->
-            <!--<a href="/Innovation" class="btn btn-success viewbutton"><span class="glyphicon glyphicon-certificate roundbuttonicon"></span><br />Innovation</a>-->
-            <h1 class="viewtitle">Apps</h1>
+            <a href="/Apps" class="btn btn-success viewbutton mainviewbutton"><h1 class="viewtitle"><span class="glyphicon glyphicon-phone roundbuttonicon"></span>Apps</h1></a>
+            <br />
             <img src="/Resources/Images/iPhone.png" class="apple iphone" alt="iPhone Website" />
             <img src="/Resources/Images/iPhone-Overwatch.png" class="apple iphone" alt="iPhone Website" />
             <img src="/Resources/Images/iPad.png" class="apple ipad" alt="iPad Website" />

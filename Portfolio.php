@@ -1,8 +1,11 @@
 <?php
 include('classes.php');
 $title = "Portfolio";
-$back = "/".$_GET['back'];
-#$back = "/";
+if (isset($_GET['back'])) {
+    $back = "/".$_GET['back'];
+} else {
+    $back = "/";
+}
 include('header.php');
 ?>
 

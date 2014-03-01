@@ -387,12 +387,22 @@ a:hover {
     margin-top: 15px;
 }
 
+.mainviewbutton {
+    width: 450px;
+    margin-top: 25px;
+}
+
 .viewtitle {
     margin-top: 0px;
     font-family: Bebas;
     position: relative;
-    top: 85px;
+    top: 10px;
     font-size: 1000%;
+}
+
+.viewtitle span {
+    font-size: 75%;
+    margin-left: -15px;
 }
 
 .apple {
@@ -401,7 +411,7 @@ a:hover {
 
 .ipad {
     height: 550px;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .iphone {
