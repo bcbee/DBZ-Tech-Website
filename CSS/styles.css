@@ -31,7 +31,7 @@ a:hover {
 }
 
 .ribbon {
-    height: 800px;
+    height: 600px;
     margin: 0px 83px;
     width: 200px;
     float: right;
@@ -56,7 +56,7 @@ a:hover {
 }
 
 .view {
-    height: 800px;
+    height: 600px;
     overflow: hidden;
 }
 
@@ -80,7 +80,7 @@ a:hover {
 
 .indexlogo {
     position: relative;
-    top: 10%;
+    top: 25px;
 }
 
 .arrow {
@@ -98,7 +98,7 @@ a:hover {
     height: 500px;
     float: right;
     position: relative;
-    top: 100px;
+    top: 50px;
     margin-right: 40px;
     z-index: 4;
 }
@@ -117,7 +117,7 @@ a:hover {
 }
 
 .panelleft {
-    top: 275px;
+    top: 110px;
     float: left;
     margin-left: 40px;
 }
@@ -388,8 +388,8 @@ a:hover {
 }
 
 .mainviewbutton {
-    width: 450px;
-    margin-top: 25px;
+    width: 650px;
+    margin-top: 65px;
 }
 
 .viewtitle {
@@ -397,7 +397,7 @@ a:hover {
     font-family: Bebas;
     position: relative;
     top: 10px;
-    font-size: 1000%;
+    font-size: 700%;
 }
 
 .viewtitle span {
@@ -410,12 +410,11 @@ a:hover {
 }
 
 .ipad {
-    height: 550px;
-    margin-top: 35px;
+    height: 400px;
 }
 
 .iphone {
-    height: 285px
+    height: 225px
 }
 
 #Splat {
@@ -466,7 +465,7 @@ a:hover {
 }
 
 #view5 {
-    background: url(/Resources/Images/View-4.png);
+    background: url(/Resources/Images/View-5.png);
 }
 
 #view6 {

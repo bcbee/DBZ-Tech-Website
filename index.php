@@ -72,7 +72,7 @@ include('classes.php');
                 <img src="Resources/Images/PanelCorner2.svg" class="panelcorner panelcornerleft" alt="Corner" />
             </div>
             <div class="ribbon" style="height:50px;"></div>
-            <div class="ribbon" style="left: 0px; margin-top: 250px; height: 550px;"></div>
+            <div class="ribbon" style="left: 0px; margin-top: 250px; height: 350px;"></div>
             <div class="ribbon horizontal" style=""><div class="block" style="width: 283px;"><img src="Resources/Images/FoldDown.svg" alt="Fold Down" style="margin-left: 83px" /></div><div class="block" style="width: 283px; float: right; margin-top: -200px;"><img src="Resources/Images/FoldLeft.svg" alt="Fold Left" style="margin-right: 83px" /></div></div>
         </div>
         <div class="view" id="view4">
@@ -81,8 +81,8 @@ include('classes.php');
             <h1 class="viewtitle">Innovation</h1>
         </div>
         <div class="view" id="view5">
-            <!-- Innovation -->
-            <a href="/Apps" class="btn btn-success viewbutton mainviewbutton"><h1 class="viewtitle"><span class="glyphicon glyphicon-phone roundbuttonicon"></span>Apps</h1></a>
+            <!-- Apps -->
+            <a href="/Apps" class="btn btn-success viewbutton mainviewbutton"><h1 class="viewtitle"><span class="glyphicon glyphicon-phone roundbuttonicon"></span>Apps Made Simple</h1></a>
             <br />
             <img src="/Resources/Images/iPhone.png" class="apple iphone" alt="iPhone Website" />
             <img src="/Resources/Images/iPhone-Overwatch.png" class="apple iphone" alt="iPhone Website" />
@@ -90,10 +90,9 @@ include('classes.php');
             <img src="/Resources/Images/iPad-Overwatch.png" class="apple ipad" alt="iPad Website" />
         </div>
         <div class="view" id="view6">
-            <!-- Innovation -->
+            <!-- Portfolio -->
             <!--<a href="/Innovation" class="btn btn-success viewbutton"><span class="glyphicon glyphicon-certificate roundbuttonicon"></span><br />Innovation</a>-->
             <h1 class="viewtitle">Portfolio</h1>
         </div>
-        <?php include('mobilead.php'); ?>
     </body>
 </html>
