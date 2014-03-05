@@ -13,7 +13,7 @@
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <title><?php echo 'DBZ Technology | '.$title; ?></title>
     </head>
-    <body>
+    <body onload="load();">
         <?php include('analyticstracking.php'); ?>
         <div class="header">
             <a href="<?php echo $back; ?>" class="back"><img src="/Resources/Images/Back.svg" alt="Back" class="back" /></a>
