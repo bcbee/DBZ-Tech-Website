@@ -230,6 +230,10 @@ a:hover {
     top: 90px;
 }
 
+.contentlogo {
+    width: 155px;
+}
+
 .leftcontentlogo {
     width: 250px;
     height: 250px;
@@ -378,8 +382,34 @@ a:hover {
     font-size: 200%;
 }
 
+.navbuttonicon {
+    font-size: 250%;
+}
+
+.navbuttons {
+    width: auto;
+    float: right;
+    margin-right: 15px;
+}
+
+.navbutton {
+    width: 55px;
+    height: 55px;
+    margin-top: 5px;
+    padding-top: 8px;
+}
+
+.navbutton:hover {
+    width: 55px;
+    height: 55px;
+    padding-top: 8px;
+    margin: 15px;
+    margin-top: 5px;
+}
+
 .indexbuttons {
     margin-top: 15px;
+    padding-top: 0px;
 }
 
 .viewbutton {
@@ -415,6 +445,11 @@ a:hover {
 
 .iphone {
     height: 225px
+}
+
+.glyphicon-send {
+    position: relative;
+    right: 4px;
 }
 
 #Splat {

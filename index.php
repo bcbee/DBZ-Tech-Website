@@ -24,6 +24,7 @@ include('classes.php');
             <div class="logo contentlogo">
                 <h1>DBZ</h1>
             </div>
+            <?php include('navbuttons.php'); ?>
         </div>
         <div class="view" id="view1">
             <!-- DBZ Technology -->
