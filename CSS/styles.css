@@ -11,7 +11,7 @@
 body {
     margin: 0px;
     text-align: center;
-    background: url('/Resources/Images/Background/Black.svg');
+    background: url('/Resources/Images/Background/Black.png');
     background-size: 5%;
     color: #BFFF00;
     font-family: Arial;
@@ -440,7 +440,7 @@ a:hover {
 }
 
 .ipad {
-    height: 400px;
+    height: 390px;
 }
 
 .iphone {
