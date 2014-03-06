@@ -78,8 +78,8 @@ include('classes.php');
         </div>
         <div class="view" id="view4">
             <!-- Innovation -->
-            <!--<a href="/Innovation" class="btn btn-success viewbutton"><span class="glyphicon glyphicon-certificate roundbuttonicon"></span><br />Innovation</a>-->
-            <h1 class="viewtitle">Innovation</h1>
+            <a href="/Innovation" class="btn btn-success viewbutton mainviewbutton centerviewbutton"><h1 class="viewtitle"><span class="glyphicon glyphicon-certificate roundbuttonicon"></span>Always Innovating</h1></a>
+            <br />
         </div>
         <div class="view" id="view5">
             <!-- Apps -->
@@ -89,11 +89,6 @@ include('classes.php');
             <img src="/Resources/Images/iPhone-Overwatch.png" class="apple iphone" alt="iPhone Website" />
             <img src="/Resources/Images/iPad.png" class="apple ipad" alt="iPad Website" />
             <img src="/Resources/Images/iPad-Overwatch.png" class="apple ipad" alt="iPad Website" />
-        </div>
-        <div class="view" id="view6">
-            <!-- Portfolio -->
-            <!--<a href="/Innovation" class="btn btn-success viewbutton"><span class="glyphicon glyphicon-certificate roundbuttonicon"></span><br />Innovation</a>-->
-            <h1 class="viewtitle">Portfolio</h1>
         </div>
     </body>
 </html>

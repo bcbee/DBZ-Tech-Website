@@ -29,3 +29,15 @@ body {
 .iphone {
     height: 235px
 }
+
+.mainviewbutton {
+    width: 650px;
+}
+
+.viewtitle {
+    margin-top: 0px;
+    font-family: Bebas;
+    position: relative;
+    top: 10px;
+    font-size: 600%;
+}

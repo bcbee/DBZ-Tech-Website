@@ -418,8 +418,12 @@ a:hover {
 }
 
 .mainviewbutton {
-    width: 650px;
+    width: 775px;
     margin-top: 65px;
+}
+
+.centerviewbutton {
+    margin-top: 200px;
 }
 
 .viewtitle {
@@ -428,6 +432,7 @@ a:hover {
     position: relative;
     top: 10px;
     font-size: 700%;
+    margin-left: 8px;
 }
 
 .viewtitle span {
@@ -508,17 +513,11 @@ a:hover {
 }
 
 #view4 {
-    display: none;
     background: url(/Resources/Images/View-4.png);
 }
 
 #view5 {
     background: url(/Resources/Images/View-5.png);
-}
-
-#view6 {
-    display: none;
-    background: url(/Resources/Images/View-4.png);
 }
 
 #profilebutton {
