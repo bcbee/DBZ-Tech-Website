@@ -11,8 +11,9 @@ include('header.php');
 
 <div id="portfolio" class="cardholder">
     <?php
-        portfolio::$view = $_GET['view'];
-        if (portfolio::$view == "") {
+        if (isset($_GET['view'])) {
+            portfolio::$view = $_GET['view'];
+        } else {
             portfolio::$view = "All";
         }
         portfolio::display();
