@@ -9,7 +9,9 @@ if (isset($_GET['back'])) {
 include('header.php');
 ?>
 
-<div id="portfolio" class="cardholder">
+<h1 class="viewtitle">Apps Made Simple</h1>
+
+<div id="portfolio" class="flexcard">
     <?php
         portfolio::$view = "Apps";
         portfolio::display();

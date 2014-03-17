@@ -9,10 +9,10 @@ if (isset($_GET['back'])) {
 include('header.php');
 ?>
 
-<div id="profile" class="cardholder">
+<div id="profile" class="flexcard">
     <?php
-        $cards = Array('Bio','Qualifications','Portfolio','Twitter');
-        cards::loadCards($cards);
+        portfolio::$view = "Profile";
+        portfolio::display();
     ?>
 </div>
 
