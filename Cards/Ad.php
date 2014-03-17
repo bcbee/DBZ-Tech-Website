@@ -1,4 +1,3 @@
-<h1>Ads:</h1>
 <script type="text/javascript"><!--
 google_ad_client = "ca-pub-8412389747226374";
 /* DBZ Card */

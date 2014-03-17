@@ -18,9 +18,9 @@
     <body onload="load();">
         <?php include('analyticstracking.php'); ?>
         <div class="header" style="display: none;">
-            <div class="logo contentlogo">
+            <a href="/" class="logo contentlogo">
                 <h1>DBZ</h1>
-            </div>
+            </a>
             <?php include('navbuttons.php'); ?>
         </div>
         <div class="view" id="view1">

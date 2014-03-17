@@ -28,6 +28,7 @@ a img {
 
 a:hover {
     color: #BFFF00;
+    text-decoration: none;
 }
 
 .ribbon {

@@ -16,10 +16,10 @@
     <body onload="load();">
         <?php include('analyticstracking.php'); ?>
         <div class="header">
-            <a href="<?php echo $back; ?>" class="back"><img src="/Resources/Images/Back.svg" alt="Back" class="back" /></a>
-            <div class="logo contentlogo">
+            <!--<a href="<?php echo $back; ?>" class="back"><img src="/Resources/Images/Back.svg" alt="Back" class="back" /></a>-->
+            <a href="/" class="logo contentlogo">
                 <h1>DBZ</h1>
-            </div>
+            </a>
             <?php include('navbuttons.php'); ?>
         </div>
         <div class="content">
