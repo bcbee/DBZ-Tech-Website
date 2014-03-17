@@ -234,30 +234,22 @@ a:hover {
     width: 155px;
 }
 
-.leftcontentlogo {
-    width: 250px;
-    height: 250px;
+.infocardlogo {
+    width: 150px;
+    height: 150px;
     border: 5px solid white;
     background-size: 500px;
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    top: 10px;
+    margin: auto;
+    margin-bottom: 15px;
 }
 
-.rightcontent {
-    display: inline-block;
-    width: 50%;
-    margin-left: 15px;
-}
-
-.rightcontent h1 {
+.infocard h1 {
     font-family: Code;
     font-size: 20px;
     margin: 0px;
 }
 
-.rightcontent h2 {
+.infocard h2 {
     font-family: Bebas;
     font-size: 30px;
     margin: 0px;

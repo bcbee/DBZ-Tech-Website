@@ -21,31 +21,42 @@ class portfolio {
     
     public static function display() {
         $viewfull = true;
-        if (portfolio::$view == "All") {
+        
+        switch(portfolio::$view) {
+            case "All":
             $row1 = array('Splat', 'MPAror', 'Erickson');
             $row2 = array('CreateOldServer', 'CreateServer', 'You');
             $row3 = array('CreateBrock', 'CreateGrandpa', 'Ad');
             $viewfull = false;
-        } elseif (portfolio::$view == "Design") {
-            $row1 = array('Splat', 'MPAror');
-            $row2 = array('You', 'Ad');
-        } elseif (portfolio::$view == "Creation") {
-            $row1 = array('CreateOldServer', 'CreateServer');
-            $row2 = array('CreateBrock', 'CreateGrandpa');
+            break;
+            case "Design":
+            $row1 = array('Design');
+            $row2 = array('Splat', 'MPAror');
             $row3 = array('You', 'Ad');
-        } elseif (portfolio::$view == "Repair") {
+            break;
+            case "Technology":
+            $row1 = array('Technology', 'CreateServer');
+            $row2 = array('CreateBrock', 'CreateOldServer', 'CreateGrandpa');
+            $row3 = array('Erickson', 'You', 'Ad');
+            break;
+            case "Innovation":
             $row1 = array('ComingSoon', 'You');
             $row2 = array('Ad');
-        } elseif (portfolio::$view == "Solutions") {
-            $row1 = array('Erickson', 'You');
-            $row2 = array('Ad');
-        } elseif (portfolio::$view == "Apps") {
+            break;
+            case "Apps":
             $row1 = array('ComingSoon', 'You');
             $row2 = array('Ad');
-        } else {
+            break;
+            case "Profile":
+            $row1 = array('Bio','Qualifications');
+            $row2 = array('Portfolio','Twitter');
+            break;
+            default:
             $row1 = array('ComingSoon', 'You');
             $row2 = array('Ad');
         }
+        
+        
         if ($viewfull) {
             echo '<div style="width: 100%; height: 50px; margin-top: 15px;"><a class="btn btn-success longbutton" href="/Portfolio?view=All">View Full Portfolio</a></div>';
         }

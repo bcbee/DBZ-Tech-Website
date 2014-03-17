@@ -11,16 +11,11 @@ $row3 = array("Splat","Twitter");
 
 <h1 class="viewtitle">Always Innovating</h1>
 
-<div class="flexcard">
-    <div class="cardrow">
-        <?php cards::loadCards($row1); ?>
-    </div>
-    <div class="cardrow">
-        <?php cards::loadCards($row2); ?>
-    </div>
-    <div class="cardrow">
-        <?php cards::loadCards($row3); ?>
-    </div>
+<div id="innovation" class="flexcard">
+    <?php
+        portfolio::$view = "Innovation";
+        portfolio::display();
+    ?>
 </div>
 
 <?php
