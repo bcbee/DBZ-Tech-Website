@@ -9,7 +9,9 @@ if (isset($_GET['back'])) {
 include('header.php');
 ?>
 
-<div id="portfolio" class="cardholder">
+<h1 class="viewtitle">DBZ Portfolio</h1>
+
+<div id="portfolio" class="flexcard">
     <?php
         if (isset($_GET['view'])) {
             portfolio::$view = $_GET['view'];

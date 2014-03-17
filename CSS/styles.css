@@ -284,14 +284,10 @@ a:hover {
 }
 
 .card {
-    background: green;
-    display: inline-block;
-    height: 400px;
-    width: 300px;
-    margin: 5px;
-    vertical-align: top;
-    border-radius: 5px;
+    width: 344px;
     background: #444;
+    padding: 10px;
+    border: 3px solid white;
 }
 
 .bc {
@@ -470,6 +466,18 @@ a:hover {
   border-width: 0 5px 5px;
 }
 
+.flexcard {
+    width: 100%;
+    margin: 40px auto;
+    height: 900px;
+}
+
+.cardrow {
+    display: inline-block;
+    vertical-align: top;
+    width: 340px;
+}
+
 #Splat {
     background: #ff3019; /* Old browsers */
     background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6+ */
@@ -485,9 +493,6 @@ a:hover {
 }
 
 #Erickson {
-    background: white;
-    height: 400px;
-    width: 300px;
     color: black;
     background: orange;
 }

@@ -22,26 +22,49 @@ class portfolio {
     public static function display() {
         $viewfull = true;
         if (portfolio::$view == "All") {
-            $cards = Array('Splat', 'MPAror', 'Erickson','CreateOldServer', 'CreateServer', 'CreateBrock', 'CreateGrandpa');
+            $row1 = array('Splat', 'MPAror', 'Erickson');
+            $row2 = array('CreateOldServer', 'CreateServer', 'You');
+            $row3 = array('CreateBrock', 'CreateGrandpa', 'Ad');
             $viewfull = false;
         } elseif (portfolio::$view == "Design") {
-            $cards = Array('Splat', 'MPAror');
+            $row1 = array('Splat', 'MPAror');
+            $row2 = array('You', 'Ad');
         } elseif (portfolio::$view == "Creation") {
-            $cards = Array('CreateOldServer', 'CreateServer', 'CreateBrock', 'CreateGrandpa');
+            $row1 = array('CreateOldServer', 'CreateServer');
+            $row2 = array('CreateBrock', 'CreateGrandpa');
+            $row3 = array('You', 'Ad');
         } elseif (portfolio::$view == "Repair") {
-            $cards = Array('ComingSoon');
+            $row1 = array('ComingSoon', 'You');
+            $row2 = array('Ad');
         } elseif (portfolio::$view == "Solutions") {
-            $cards = Array('Erickson');
+            $row1 = array('Erickson', 'You');
+            $row2 = array('Ad');
         } elseif (portfolio::$view == "Apps") {
-            $cards = Array('ComingSoon');
+            $row1 = array('ComingSoon', 'You');
+            $row2 = array('Ad');
         } else {
-            $cards = Array('ComingSoon');
+            $row1 = array('ComingSoon', 'You');
+            $row2 = array('Ad');
         }
-        array_push($cards, 'You', 'Ad');
         if ($viewfull) {
             echo '<div style="width: 100%; height: 50px; margin-top: 15px;"><a class="btn btn-success longbutton" href="/Portfolio?view=All">View Full Portfolio</a></div>';
         }
-        cards::loadCards($cards);
+        
+        if (isset($row1)) {
+            echo '<div class="cardrow">';
+            cards::loadCards($row1);
+            echo '</div>';
+        }
+        if (isset($row2)) {
+            echo '<div class="cardrow">';
+            cards::loadCards($row2);
+            echo '</div>';
+        }
+        if (isset($row3)) {
+            echo '<div class="cardrow">';
+            cards::loadCards($row3);
+            echo '</div>';
+        }
     }
 }
 
