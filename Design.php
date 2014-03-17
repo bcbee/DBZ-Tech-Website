@@ -5,7 +5,7 @@ $back = "/#view2";
 include('header.php');
 ?>
 
-<h1 class="viewtitle">Compelling Design</h1>
+<h1 class="pagetitle">Compelling Design</h1>
 
 <div id="design" class="flexcard">
     <?php

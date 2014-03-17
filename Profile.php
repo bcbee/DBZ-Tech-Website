@@ -9,6 +9,8 @@ if (isset($_GET['back'])) {
 include('header.php');
 ?>
 
+<h1 class="pagetitle">Profile</h1>
+
 <div id="profile" class="flexcard">
     <?php
         portfolio::$view = "Profile";

@@ -9,7 +9,7 @@ $row2 = array("Qualifications","CreateServer","Portfolio");
 $row3 = array("Splat","Twitter");
 ?>
 
-<h1 class="viewtitle">Always Innovating</h1>
+<h1 class="pagetitle">Always Innovating</h1>
 
 <div id="innovation" class="flexcard">
     <?php

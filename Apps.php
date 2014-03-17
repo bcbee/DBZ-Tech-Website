@@ -9,7 +9,7 @@ if (isset($_GET['back'])) {
 include('header.php');
 ?>
 
-<h1 class="viewtitle">Apps Made Simple</h1>
+<h1 class="pagetitle">Apps Made Simple</h1>
 
 <div id="portfolio" class="flexcard">
     <?php

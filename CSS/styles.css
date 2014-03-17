@@ -428,6 +428,12 @@ a:hover {
     margin-left: -15px;
 }
 
+.pagetitle {
+    margin-top: 0px;
+    font-family: Bebas;
+    font-size: 700%;
+}
+
 .apple {
     vertical-align: bottom;
 }
@@ -461,6 +467,7 @@ a:hover {
 .flexcard {
     width: 100%;
     margin: 40px auto;
+    margin-top: 0px;
 }
 
 .cardrow {

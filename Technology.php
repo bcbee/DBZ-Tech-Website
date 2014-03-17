@@ -6,7 +6,7 @@ include('header.php');
 ?>
 
 
-<h1 class="viewtitle">Technology Experts</h1>
+<h1 class="pagetitle">Technology Experts</h1>
 
 <div id="design" class="flexcard">
     <?php

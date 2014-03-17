@@ -9,7 +9,7 @@ if (isset($_GET['back'])) {
 include('header.php');
 ?>
 
-<h1 class="viewtitle">DBZ Portfolio</h1>
+<h1 class="pagetitle">DBZ Portfolio</h1>
 
 <div id="portfolio" class="flexcard">
     <?php
