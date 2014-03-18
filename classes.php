@@ -26,26 +26,24 @@ class portfolio {
             case "All":
             $row1 = array('Splat', 'MPAror', 'Erickson');
             $row2 = array('CreateOldServer', 'CreateServer', 'You');
-            $row3 = array('CreateBrock', 'CreateGrandpa', 'Ad');
+            $row3 = array('CreateBrock', 'CreateGrandpa');
             $viewfull = false;
             break;
             case "Design":
             $row1 = array('Design');
             $row2 = array('Splat', 'MPAror');
-            $row3 = array('You', 'Ad');
+            $row3 = array('You');
             break;
             case "Technology":
             $row1 = array('Technology', 'CreateServer');
             $row2 = array('CreateBrock', 'CreateOldServer', 'CreateGrandpa');
-            $row3 = array('Erickson', 'You', 'Ad');
+            $row3 = array('Erickson', 'You');
             break;
             case "Innovation":
             $row1 = array('ComingSoon', 'You');
-            $row2 = array('Ad');
             break;
             case "Apps":
             $row1 = array('ComingSoon', 'You');
-            $row2 = array('Ad');
             break;
             case "Profile":
             $row1 = array('Bio','Qualifications');
@@ -53,7 +51,6 @@ class portfolio {
             break;
             default:
             $row1 = array('ComingSoon', 'You');
-            $row2 = array('Ad');
         }
         
         

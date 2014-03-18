@@ -123,10 +123,12 @@ body {
 }
 
 .header h1 {
-    width: 150px;
+    width: 88px;
     position: relative;
-    right: 28px;
+    right: 8px;
     font-size: 50px;
+    height: 45px;
+    margin-top: -2px;
 }
 
 .header img {
@@ -139,11 +141,6 @@ body {
 
 .leftcontentlogo {
     top: -20px;
-}
-
-.header h1 {
-    right: 0px;
-    width: 88px;
 }
 
 .view {
@@ -176,6 +173,10 @@ body {
 
 .navbuttons {
     display: none;
+}
+
+.pagetitle {
+    font-size: 500%;
 }
 
 #contactform {

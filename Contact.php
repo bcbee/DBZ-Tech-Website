@@ -7,7 +7,7 @@ include('header.php');
 ?>
 
 <div id="contact">
-    <h1 style="position: relative; bottom: 25px;">Contact DBZ Technology</h1>
+    <h1 class="pagetitle">Contact DBZ Technology</h1>
     <form method="post" role="form" id="contactform" action="/Contact">
         <select class="form-control" name="subject" required>
           <option>Request a Quote</option>
