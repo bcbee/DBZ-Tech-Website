@@ -13,11 +13,7 @@ include('header.php');
 
 <div id="portfolio" class="flexcard">
     <?php
-        if (isset($_GET['view'])) {
-            portfolio::$view = $_GET['view'];
-        } else {
-            portfolio::$view = "All";
-        }
+        portfolio::$view = "All";
         portfolio::display();
     ?>
 </div>

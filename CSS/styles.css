@@ -491,6 +491,13 @@ a:hover {
     width: 300px;
 }
 
+.mobilenav {
+    display: none;
+    float: right;
+    width: 55%;
+    margin: 5px;
+}
+
 #Splat {
     background: #ff3019; /* Old browsers */
     background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6+ */

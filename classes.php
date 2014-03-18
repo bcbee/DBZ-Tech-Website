@@ -55,7 +55,7 @@ class portfolio {
         
         
         if ($viewfull) {
-            echo '<div style="width: 100%; height: 50px; margin-top: 15px;"><a class="btn btn-success longbutton" href="/Portfolio?view=All"><span class="glyphicon glyphicon-user" style="margin-right: 5px;"></span>View Full Portfolio</a></div>';
+            echo '<div style="width: 100%; height: 50px;"><a class="btn btn-success longbutton" href="/Portfolio"><span class="glyphicon glyphicon-user" style="margin-right: 5px;"></span>View Full Portfolio</a></div>';
         }
         
         if (isset($row1)) {
@@ -76,12 +76,18 @@ class portfolio {
     }
 }
 
-class color {
-    public static $color = "";
+class mobilenav {
     
-    public static function set($color) {
-        color::$color = $color;
-        echo '<link rel="stylesheet" href="/CSS/'.$color.'.css" />';
+    public static function options($title) {
+        $pages = array('Design','Technology','Innovation','Apps','Portfolio','Contact');
+        foreach($pages as $page) {
+            if($page == $title) {
+                echo "<option selected disabled>";
+            } else {
+                echo "<option>";
+            }
+            echo $page.'</option>';
+        }
     }
 }
 

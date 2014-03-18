@@ -179,6 +179,10 @@ body {
     font-size: 500%;
 }
 
+.mobilenav {
+    display: block;
+}
+
 #contactform {
     width: auto;
     margin: 20px;
