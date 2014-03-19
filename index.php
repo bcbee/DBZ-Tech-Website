@@ -13,6 +13,7 @@
         <script src="/JS/index.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta name="msvalidate.01" content="59E1BC42B9D918F982BBB8F8BF6E4F6F" />
         <title>DBZ Technology | Home</title>
     </head>
     <body onload="load();">
