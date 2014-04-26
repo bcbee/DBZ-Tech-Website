@@ -3,6 +3,7 @@
 <!-- This site was written and developed by Brendan Boyle of DBZ Technology -->
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="stylesheet" href="/CSS/bootstrap/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/CSS/styles.css" />
         <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 1100px)' href='/CSS/tablet.css' />
@@ -11,7 +12,6 @@
         <script src="/CSS/bootstrap/js/bootstrap.min.js"></script>
         <script src="/JS/scripts.js"></script>
         <script src="/JS/index.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <meta name="msvalidate.01" content="59E1BC42B9D918F982BBB8F8BF6E4F6F" />
         <title>DBZ Technology | Home</title>
