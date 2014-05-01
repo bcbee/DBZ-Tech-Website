@@ -43,7 +43,7 @@ class portfolio {
             $row1 = array('ComingSoon', 'You');
             break;
             case "Apps":
-            $row1 = array('ComingSoon', 'You');
+            $row1 = array('UPR', 'You');
             break;
             case "Profile":
             $row1 = array('Bio','Qualifications');
