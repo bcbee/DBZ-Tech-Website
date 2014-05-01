@@ -573,3 +573,253 @@ a:hover {
 #recaptcha_area, #recaptcha_table {
     margin: auto;
 }
+
+@media (max-width: 1100px) {
+    body {
+        background-size: 7%;
+    }
+
+    .panel {
+        width: 85%;
+    }
+
+    .link {
+        margin-top: 275px;
+    }
+
+    .link img {
+        width: 100px;
+    }
+
+    .content { 
+        width: 91%;
+    }
+
+    .dbzpanel {
+        width: 90%;
+    }
+
+    .ipad {
+        height: 400px;
+    }
+
+    .iphone {
+        height: 235px
+    }
+
+    .mainviewbutton {
+        width: 650px;
+    }
+
+    .viewtitle {
+        margin-top: 0px;
+        font-family: Bebas;
+        position: relative;
+        top: 10px;
+        font-size: 600%;
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        background-size: 15%;
+    }
+
+    .dbzpanel {
+        width: 93%;
+        float: none;
+        margin: auto;
+        top: 40px;
+        height: 100%;
+    }
+
+    .indexlogo {
+        top: 3%;
+    }
+
+
+    .dbzpanel h1 {
+        font-size: 30px;
+    }
+
+    .panelrect {
+        height: 100%;
+    }
+
+    .panelcorner {
+        display: none;
+    }
+
+    .link {
+        margin: 0px;
+    }
+
+    .link img {
+        width: 100px;
+    }
+
+    .ribbon {
+        display: none;
+    }
+
+    .buttonholder {
+        width: 90%;
+        top: 20px;
+    }
+
+    .smallbutton {
+        width: 100%;
+        height: 60px;
+        margin: 8px 0px;
+    }
+
+    .bigbutton {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .bigbutton p {
+        font-size: 75px;
+        margin-top: 8px;
+    }
+
+    #profilebutton {
+        margin-top: 2px;
+    }
+
+    #repairbutton {
+        margin-top: 13px;
+    }
+
+    #appsbutton {
+        margin-top: 2px;
+        font-size: 53px;
+    }
+
+    .bc {
+        margin-top: 90px;
+        top: 200px;
+        width: 290px;
+    }
+
+    .bclogo {
+        float: none;
+        margin: auto;
+    }
+
+    .bcdownload {
+        float: none;
+        margin: auto;
+    }
+
+    .back img {
+        width: 45px;
+        height: 45px;
+        margin-top: 0px;
+    }
+
+    .content {
+        top: 60px;
+    }
+
+    .contentlogo h1 {
+        font-size: 65px;
+    }
+
+    .contentlogo h2 {
+        font-size: 44px;
+        margin-top: -23px;
+    }
+
+    .sidenav {
+        width: 100%;
+        height: auto;
+        background: #BFFF00;
+    }
+
+    .sidenav p {
+        margin-top: 10px;
+    }
+
+    .header {
+        height: 45px;
+    }
+
+    .header h1 {
+        width: 88px;
+        position: relative;
+        right: 8px;
+        font-size: 50px;
+        height: 45px;
+        margin-top: -2px;
+    }
+
+    .header img {
+    }
+
+    .rightcontent {
+        width: 90%;
+        margin-left: 0px;
+    }
+
+    .leftcontentlogo {
+        top: -20px;
+    }
+
+    .view {
+        height: 100%;
+        padding-bottom: 20%;
+    }
+
+    .panelpadding {
+        padding: 15px;
+    }
+
+    .ipad {
+        height: 200px;
+        margin-top: 0px;
+    }
+
+    .iphone {
+        height: 235px;
+        margin-top: 25px;
+    }
+
+    .mainviewbutton {
+        width: 75%;
+        margin-top: 25px;
+    }
+
+    .viewtitle {
+        font-size: 210%;
+    }
+
+    .navbuttons {
+        display: none;
+    }
+
+    .pagetitle {
+        font-size: 500%;
+    }
+
+    .mobilenav {
+        display: block;
+    }
+
+    #contactform {
+        width: auto;
+        margin: 20px;
+    }
+
+    #Ad {
+        display: none;
+    }
+
+    #panel1 {
+        border-bottom-right-radius: 10px;
+    }
+
+    #panel2 {
+        border-bottom-left-radius: 10px;
+    }
+}
