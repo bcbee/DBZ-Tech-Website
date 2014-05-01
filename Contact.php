@@ -1,7 +1,7 @@
 <?php
 include('classes.php');
 include('contactconfig.php');
-$title = "Consulting";
+$title = "Contact";
 $back = "/";
 include('header.php');
 ?>
