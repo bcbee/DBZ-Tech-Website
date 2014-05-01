@@ -1,4 +1,4 @@
-<select class="form-control mobilenav">
+<select class="form-control mobilenav" id="mobilenav" onchange="mobilenavselect();">
   <?php mobilenav::options($title); ?>
 </select>
 

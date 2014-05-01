@@ -1,4 +1,4 @@
-<?php include('classes.php'); ?>
+<?php $title = "Home"; include('classes.php'); ?>
 <!doctype html>
 <!-- This site was written and developed by Brendan Boyle of DBZ Technology -->
 <html>

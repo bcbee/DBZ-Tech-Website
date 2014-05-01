@@ -79,7 +79,7 @@ class portfolio {
 class mobilenav {
     
     public static function options($title) {
-        $pages = array('Design','Technology','Innovation','Apps','Portfolio','Contact');
+        $pages = array('Home','Design','Technology','Innovation','Apps','Portfolio','Contact');
         foreach($pages as $page) {
             if($page == $title) {
                 echo "<option selected disabled>";
