@@ -13,6 +13,7 @@
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <meta name="msvalidate.01" content="59E1BC42B9D918F982BBB8F8BF6E4F6F" />
         <title>DBZ Technology | Home</title>
+        <?php include('pingdom.php'); ?>
     </head>
     <body onload="load();">
         <?php include('analyticstracking.php'); ?>

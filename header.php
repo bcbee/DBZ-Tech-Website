@@ -10,6 +10,7 @@
         <script src="/JS/scripts.js"></script>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <title><?php echo 'DBZ Technology | '.$title; ?></title>
+        <?php include('pingdom.php'); ?>
     </head>
     <body onload="load();">
         <?php include('analyticstracking.php'); ?>
