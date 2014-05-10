@@ -225,7 +225,6 @@ a:hover {
 }
 
 .content {
-    width: 100%;
     margin: auto;
     position: relative;
     top: 90px;
@@ -605,10 +604,6 @@ a:hover {
         width: 100px;
     }
 
-    .content { 
-        width: 91%;
-    }
-
     .dbzpanel {
         width: 90%;
     }
@@ -821,7 +816,7 @@ a:hover {
     }
     
     .titlecard {
-        width: 100%;
+        width: auto;
     }
 
     #contactform {
