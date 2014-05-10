@@ -11,7 +11,7 @@
 body {
     margin: 0px;
     text-align: center;
-    background: url('/Resources/Images/Background/Black.png');
+    background: #000000 url('/Resources/Images/Background/Black.png');
     background-size: 5%;
     color: #BFFF00;
     font-family: Arial;
