@@ -819,6 +819,10 @@ a:hover {
     .mobilenav {
         display: block;
     }
+    
+    .titlecard {
+        width: 100%;
+    }
 
     #contactform {
         width: auto;
