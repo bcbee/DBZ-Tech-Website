@@ -5,6 +5,7 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-21351328-1', 'dbztech.com');
+  ga('require', 'displayfeatures');
   ga('send', 'pageview');
 
 </script>
