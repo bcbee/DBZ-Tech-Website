@@ -1,5 +1,6 @@
 <!doctype html>
 <!-- This site was written and developed by Brendan Boyle of DBZ Technology -->
+<!-- This site is being served through Microsoft Azure -->
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
