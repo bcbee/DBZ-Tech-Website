@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="stylesheet" href="/CSS/bootstrap/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/CSS/styles.css" />
-        <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-        <script src="/CSS/bootstrap/js/bootstrap.min.js"></script>
-        <script src="/JS/scripts.js"></script>
+        <script async src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+        <script async src="/CSS/bootstrap/js/bootstrap.min.js"></script>
+        <script async src="/JS/scripts.js"></script>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <title><?php echo 'DBZ Technology | '.$title; ?></title>
         <?php include('pingdom.php'); ?>
