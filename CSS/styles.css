@@ -536,7 +536,7 @@ a:hover {
 }
 
 #view2 {
-    background: url(/Resources/Images/View-2.png);
+    background: url(/Resources/Images/View-2.jpg);
 }
 
 #panel1 {
@@ -544,7 +544,7 @@ a:hover {
 }
 
 #view3 {
-    background: url(/Resources/Images/View-3.svg);
+    background: url(/Resources/Images/View-3.jpg);
 }
 
 #panel2 {
@@ -552,11 +552,11 @@ a:hover {
 }
 
 #view4 {
-    background: url(/Resources/Images/View-4.png);
+    background: url(/Resources/Images/View-4.jpg);
 }
 
 #view5 {
-    background: url(/Resources/Images/View-5.png);
+    background: url(/Resources/Images/View-5.jpg);
 }
 
 #profilebutton {
