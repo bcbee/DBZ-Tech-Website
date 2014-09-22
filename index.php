@@ -1,5 +1,6 @@
 <?php $title = "Home"; include('classes.php'); ?>
 <!doctype html>
+<!-- BETA VERSION -->
 <!-- This site was written and developed by Brendan Boyle of DBZ Technology -->
 <html>
     <head>
