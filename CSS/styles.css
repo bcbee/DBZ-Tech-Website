@@ -507,6 +507,11 @@ a:hover {
     margin: 5px;
 }
 
+.supportbutton {
+    margin: 10px;
+    width: 200px;
+}
+
 #Splat {
     background: #ff3019; /* Old browsers */
     background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6+ */

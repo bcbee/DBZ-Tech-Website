@@ -8,6 +8,15 @@ include('header.php');
 
 <div id="contact">
     <h1 class="pagetitle">Contact DBZ Technology</h1>
+    
+    <p class="btn btn-success supportbutton"><span class="glyphicon glyphicon-thumbs-up"></span> Support</p>
+    <p class="btn btn-success supportbutton"><span class="glyphicon glyphicon-usd"></span> Request a Quote</p>
+    <p class="btn btn-success supportbutton"><span class="glyphicon glyphicon-question-sign"></span> Ask a Question</p>
+    <p class="btn btn-success supportbutton"><span class="glyphicon glyphicon-info-sign"></span> Other</p>
+    
+    <br />
+    <br />
+    
     <form method="post" role="form" id="contactform" action="/Contact">
         <select class="form-control" name="subject" required>
           <option>Request a Quote</option>
