@@ -512,6 +512,12 @@ a:hover {
     width: 200px;
 }
 
+.contactform {
+    width: 500px;
+    margin: auto;
+    display: none;
+}
+
 #Splat {
     background: #ff3019; /* Old browsers */
     background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6+ */
@@ -582,11 +588,6 @@ a:hover {
 
 #Ad {
     padding: 0px;
-}
-
-#contactform {
-    width: 500px;
-    margin: auto;
 }
 
 #recaptcha_area, #recaptcha_table {
@@ -825,7 +826,7 @@ a:hover {
         width: auto;
     }
 
-    #contactform {
+    .contactform {
         width: auto;
         margin: 20px;
     }
