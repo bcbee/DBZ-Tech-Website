@@ -27,7 +27,7 @@
                 var t=document,r="script",u=t.createElement(r),i;for(u.src=ai.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",t.getElementsByTagName(r)[0].parentNode.appendChild(u),ai.cookie=t.cookie,ai.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)f("track"+i.pop());
                 return ai;
             }({
-                iKey:"8d9c0114-1521-4d44-a19d-44e9df4897b3"
+                iKey:"c0ae0aae-2c08-44ad-aff3-d9b37246d4ea"
             });
 
             appInsights.trackPageView();
