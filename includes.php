@@ -1,11 +1,12 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="msvalidate.01" content="59E1BC42B9D918F982BBB8F8BF6E4F6F" />
-<link rel="stylesheet" href="/CSS/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 <link rel="stylesheet/less" type="text/css" href="/CSS/styles.less" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.5/less.min.js"></script>
 <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-<script async src="/CSS/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script async src="/JS/scripts.js"></script>
 <?php include('pingdom.php'); ?>
 <script type="text/javascript">
@@ -19,3 +20,11 @@
 
     appInsights.trackPageView();
 </script>
+
+<!-- Latest compiled and minified CSS -->
+
+
+<!-- Optional theme -->
+
+
+<!-- Latest compiled and minified JavaScript -->
