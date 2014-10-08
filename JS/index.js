@@ -5,5 +5,6 @@ $(window).scroll(function() {
         $(".titleheader").css("top", "0px");
     } else {
         $(".titleheader").css("top", "-48px");
+        $(".linkheader").css("top", "-48px");
     }
 });
