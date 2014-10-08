@@ -206,15 +206,15 @@ a:hover {
 }
 
 .header {
-    height: 65px;
+    height: 68px;
     margin: auto;
-    background: #242f38;
+    background: #222;
     position: fixed;
     width: 100%;
     top: 0px;
-    opacity: .95;
     color: #BFFF00;
     z-index: 10;
+    border-bottom: 3px solid #BFFF00;
 }
 
 .header h1 {
@@ -357,7 +357,7 @@ a:hover {
 }
 
 .contentlogo {
-    float: left; 
+    float: left;
 }
 
 .cardcomputer {
@@ -571,13 +571,13 @@ a:hover {
 }
 
 #profilebutton {
-    font-size: 52px; 
+    font-size: 52px;
     margin-top: 20px;
 }
 
 #repairbutton {
-    font-size: 45px; 
-    margin-top: 18px; 
+    font-size: 45px;
+    margin-top: 18px;
     line-height: 38px;
 }
 
@@ -821,7 +821,7 @@ a:hover {
     .mobilenav {
         display: block;
     }
-    
+
     .titlecard {
         width: auto;
     }
