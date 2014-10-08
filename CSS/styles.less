@@ -20,10 +20,13 @@ body {
 a {
     text-decoration: none;
     color: @accent;
+    img {
+        border: none;
+    }
 }
 
-a img {
-    border: none;
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: @base;
 }
 
 a:hover {
@@ -186,7 +189,8 @@ a:hover {
 
 .longbutton {
     width: 245px;
-    margin: 5px;
+    position: relative;
+    top: 5px;
 }
 
 .centerbutton {
@@ -208,6 +212,8 @@ a:hover {
     top: 0px;
     z-index: 10;
     border-bottom: 3px solid @nav-border;
+    -webkit-transition: top .5s;
+    transition: top .5s;
     h1 {
         font-size: 68px;
         margin-left: 15px;
@@ -225,13 +231,17 @@ a:hover {
 }
 
 .contentlogo {
-    color: @base;
+    h1 {
+      color: @base;
+    }
     -webkit-transition: color .5s;
     transition: width color .5s;
 }
 
 .contentlogo:hover {
-    color: @accent;
+    h1 {
+      color: @accent;
+    }
 }
 
 .back {
@@ -263,6 +273,7 @@ a:hover {
         font-family: Bebas;
         font-size: 48px;
         margin-top: 0px;
+        color: white;
     }
 }
 
@@ -305,25 +316,31 @@ a:hover {
 
 .roundbutton {
     display: inline-block;
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
     background: @base;
     color: black;
     border-radius: 50%;
     margin: 15px;
-    padding-top: 20px;
+    padding-top: 30px;
     vertical-align: middle;
     text-align: center;
+
+    font-family: Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
     -webkit-transition: width .5s, height .5s, background .5s, margin .5s, padding-top .5s, color .5s;
     transition: width .5s, height .5s, background .5s, margin .5s, padding-top .5s, color .5s;
 }
 
 .roundbutton:hover {
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
     background: @accent;
     margin: 5px;
-    padding-top: 30px;
+    padding-top: 40px;
     color: black;
 }
 
@@ -365,16 +382,16 @@ a:hover {
 
 .viewbutton {
     width: 100%;
-    margin-top: 15px;
+    position: relative;
 }
 
 .mainviewbutton {
     width: 775px;
-    margin-top: 65px;
+    top: 65px;
 }
 
 .centerviewbutton {
-    margin-top: 200px;
+    top: 200px;
 }
 
 .viewtitle {
@@ -384,6 +401,7 @@ a:hover {
     top: 10px;
     font-size: 700%;
     margin-left: 8px;
+    color: white;
 }
 
 .viewtitle span {
@@ -403,10 +421,12 @@ a:hover {
 
 .ipad {
     height: 390px;
+    margin-top: 75px;
 }
 
 .iphone {
-    height: 225px
+    height: 225px;
+    margin-top: 75px;
 }
 
 .glyphicon-send {
@@ -563,10 +583,6 @@ a:hover {
         height: 235px
     }
 
-    .mainviewbutton {
-        width: 650px;
-    }
-
     .viewtitle {
         margin-top: 0px;
         font-family: Bebas;
@@ -587,13 +603,6 @@ a:hover {
         margin: auto;
         top: 40px;
         height: 100%;
-    }
-
-    .indexlogo {
-        top: 3%;
-        h1 {
-            font-size: 30px;
-        }
     }
 
     .panelrect {
@@ -704,6 +713,53 @@ a:hover {
         }
     }
 
+    .titleheader {
+        z-index: 2000;
+    }
+
+    .linkheader {
+        top: 48px;
+        text-align: left;
+        z-index: 1000;
+    }
+
+    .menulinkscroller {
+      height: 48px;
+      -webkit-overflow-scrolling: touch;
+      padding: 0px 5px 12px;
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+      list-style: none;
+      font-family: Bebas;
+      font-size: 34px;
+  }
+
+  .menulink {
+      display: inline-block;
+      vertical-align: top;
+      height: 50px;
+      white-space: normal;
+      margin: 0 10px;
+      a {
+        color: @accent;
+        text-decoration: underline;
+        -webkit-transition: color .5s;
+        transition: width color .5s;
+      }
+      a:hover {
+        color: @base;
+      }
+    }
+
+    .disabled {
+        a {
+          pointer-events: none;
+          cursor: default;
+          color: @base;
+        }
+    }
+
     .rightcontent {
         width: 90%;
         margin-left: 0px;
@@ -724,17 +780,17 @@ a:hover {
 
     .ipad {
         height: 200px;
-        margin-top: 0px;
+        margin-top: 25px;
     }
 
     .iphone {
         height: 235px;
-        margin-top: 25px;
+        margin-top: 50px;
     }
 
     .mainviewbutton {
         width: 75%;
-        margin-top: 25px;
+        top: 25px;
     }
 
     .viewtitle {
@@ -770,7 +826,7 @@ a:hover {
         font-size: 30px;
         margin: 4px;
         padding-left: 10px;
-        padding-right: 35px;
+        padding-right: 10px;
         color: @base;
     }
 

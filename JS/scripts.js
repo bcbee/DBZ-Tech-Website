@@ -1,15 +1,19 @@
 //JavaScript Document
+var menuDisplayed = false;
+
 
 function load() {
     $('[data-toggle="tooltip"]').tooltip({'placement': 'bottom'});
 }
 
-function changePage(title) {
-    window.location = "http://dbztech.com/"+title;
-}
+function toggleLinkMenu() {
+    if (!menuDisplayed) {
+        $(".linkheader").css("top", "48px");
+    } else {
+        $(".linkheader").css("top", "-48px");
+    }
 
-function mobilenavselect() {
-    changePage(document.getElementById('mobilenav').value);
+    menuDisplayed = !menuDisplayed;
 }
 
 function core() {
@@ -21,7 +25,7 @@ function core() {
            // statements to handle any exceptions
         }
     }
-    
+
     this.hideId = function(id) {
         try {
            document.getElementById(id).style.display = "none";
@@ -29,7 +33,7 @@ function core() {
         catch (e) {
            // statements to handle any exceptions
         }
-        
+
     }
 }
 
