@@ -1,3 +1,10 @@
+@base-dark: #1de9b6;
+@accent-dark: #FFF;
+
+@base-light: #1de9b6;
+@accent-white: #222;
+
+
 @font-face {
     font-family: Bebas;
     src: url(/Resources/Fonts/BebasNeue.woff);
@@ -13,13 +20,13 @@ body {
     text-align: center;
     background: #000000 url('/Resources/Images/Background/Black.png');
     background-size: 5%;
-    color: #BFFF00;
+    color: @base-dark;
     font-family: Arial;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: @accent-dark;
 }
 
 a img {
@@ -27,7 +34,7 @@ a img {
 }
 
 a:hover {
-    color: #BFFF00;
+    color: @base-dark;
     text-decoration: none;
 }
 
@@ -36,7 +43,7 @@ a:hover {
     margin: 0px 83px;
     width: 200px;
     float: right;
-    background: #BFFF00;
+    background: @base-dark;
     position: absolute;
     right: 0px;
 }
@@ -160,7 +167,7 @@ a:hover {
     background: #222;
     float: left;
     border-radius: 5px;
-    color: #BFFF00;
+    color: @base-dark;
     font-family: Bebas;
 }
 
@@ -169,7 +176,7 @@ a:hover {
 }
 
 .button:hover {
-    background: #BFFF00;
+    background: @base-dark;
     color: black;
 }
 
@@ -212,15 +219,13 @@ a:hover {
     position: fixed;
     width: 100%;
     top: 0px;
-    color: #BFFF00;
+    color: @base-dark;
     z-index: 10;
-    border-bottom: 3px solid #BFFF00;
+    border-bottom: 3px solid @base-dark;
 }
 
 .header h1 {
     font-size: 68px;
-    width: 120px;
-    height: 65px;
     margin-left: 15px;
 }
 
@@ -232,13 +237,13 @@ a:hover {
 }
 
 .contentlogo {
-    color: #BFFF00;
+    color: @base-dark;
     -webkit-transition: color .5s;
     transition: width color .5s;
 }
 
 .contentlogo:hover {
-    color: white;
+    color: @accent-dark;
 }
 
 .back {
@@ -265,7 +270,7 @@ a:hover {
     height: 420px;
     background: #444;
     padding: 10px;
-    border: 3px solid white;
+    border: 3px solid @accent-dark;
     display: inline-block;
     vertical-align: top;
 }
@@ -286,7 +291,7 @@ a:hover {
 .infocardlogo {
     width: 150px;
     height: 150px;
-    border: 5px solid white;
+    border: 5px solid @accent-dark;
     background-size: 500px;
     margin: auto;
     margin-bottom: 15px;
@@ -306,7 +311,7 @@ a:hover {
 }
 
 .bc {
-    background: #BFFF00;
+    background: @base-dark;
     color: black;
     width: 350px;
     height: 200px;
@@ -342,7 +347,7 @@ a:hover {
 }
 
 .bccontact a:hover {
-    color: white;
+    color: @accent-dark;
 }
 
 .bccontact h2 {
@@ -363,14 +368,14 @@ a:hover {
 .cardcomputer {
     width: 150px;
     height: 150px;
-    border: 5px solid white;
+    border: 5px solid @accent-dark;
 }
 
 .roundbutton {
     display: inline-block;
     width: 90px;
     height: 90px;
-    background: #BFFF00;
+    background: @base-dark;
     color: black;
     border-radius: 50%;
     margin: 15px;
@@ -384,7 +389,7 @@ a:hover {
 .roundbutton:hover {
     width: 110px;
     height: 110px;
-    background: white;
+    background: @accent-dark;
     margin: 5px;
     padding-top: 30px;
     color: black;
@@ -476,7 +481,7 @@ a:hover {
 }
 
 .tooltip-inner {
-    background: white;
+    background: @accent-dark;
     color: black;
 }
 
@@ -484,7 +489,7 @@ a:hover {
   top: 0;
   left: 50%;
   margin-left: -5px;
-  border-bottom-color: white;
+  border-bottom-color: @accent-dark;
   border-width: 0 5px 5px;
 }
 
@@ -502,9 +507,6 @@ a:hover {
 
 .mobilenav {
     display: none;
-    float: right;
-    width: 55%;
-    margin: 5px;
 }
 
 .supportbutton {
@@ -544,6 +546,10 @@ a:hover {
 
 #arrow1 {
     margin: auto;
+}
+
+#view1 {
+    height: 100%;
 }
 
 #view2 {
@@ -738,6 +744,10 @@ a:hover {
         top: 60px;
     }
 
+    .contentlogo {
+      float: none;
+    }
+
     .contentlogo h1 {
         font-size: 65px;
     }
@@ -750,7 +760,7 @@ a:hover {
     .sidenav {
         width: 100%;
         height: auto;
-        background: #BFFF00;
+        background: @base-dark;
     }
 
     .sidenav p {
@@ -758,16 +768,13 @@ a:hover {
     }
 
     .header {
-        height: 45px;
+        height: 48px;
     }
 
     .header h1 {
-        width: 88px;
-        position: relative;
-        right: 8px;
         font-size: 50px;
-        height: 45px;
         margin-top: -2px;
+        margin-right: 85px;
     }
 
     .header img {
@@ -829,6 +836,30 @@ a:hover {
     .contactform {
         width: auto;
         margin: 20px;
+    }
+
+    .navmenu {
+        float: right;
+        -webkit-transition: color .5s;
+        transition: width color .5s;
+        float: left;
+        font-size: 30px;
+        margin: 4px;
+        padding-left: 10px;
+        padding-right: 35px;
+        color: @base-dark;
+    }
+
+    .navmenu:hover {
+        color: @accent-dark;
+    }
+
+    .roundbutton {
+        display: none;
+    }
+
+    #view1 {
+        padding-bottom: 0px;
     }
 
     #Ad {
