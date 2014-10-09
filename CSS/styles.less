@@ -13,21 +13,24 @@ body {
     text-align: center;
     background: #000000 url('/Resources/Images/Background/Black.png');
     background-size: 5%;
-    color: #BFFF00;
+    color: @base;
     font-family: Arial;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: @accent;
+    img {
+        border: none;
+    }
 }
 
-a img {
-    border: none;
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: @base;
 }
 
 a:hover {
-    color: #BFFF00;
+    color: @base;
     text-decoration: none;
 }
 
@@ -36,7 +39,7 @@ a:hover {
     margin: 0px 83px;
     width: 200px;
     float: right;
-    background: #BFFF00;
+    background: @base;
     position: absolute;
     right: 0px;
 }
@@ -63,19 +66,17 @@ a:hover {
 
 .logo {
     margin: auto;
-}
-
-.logo h1 {
-    margin: 0px;
-    font-size: 117px;
-    font-family: Code;
-}
-
-.logo h2 {
-    margin: 0px;
-    margin-top: -25px;
-    font-size: 50px;
-    font-family: Bebas;
+    h1 {
+        margin: 0px;
+        font-size: 117px;
+        font-family: Code;
+    }
+    h2 {
+        margin: 0px;
+        margin-top: -25px;
+        font-size: 50px;
+        font-family: Bebas;
+    }
 }
 
 .indexlogo {
@@ -101,19 +102,17 @@ a:hover {
     top: 50px;
     margin-right: 40px;
     z-index: 4;
-}
-
-.dbzpanel h1 {
-    font-family: Code;
-    font-size: 60px;
-    margin: 0px;
-}
-
-.dbzpanel h2 {
-    font-family: Bebas;
-    font-size: 30px;
-    margin: 0px;
-    letter-spacing: 4px;
+    h1 {
+        font-family: Code;
+        font-size: 60px;
+        margin: 0px;
+    }
+    h2 {
+        font-family: Bebas;
+        font-size: 30px;
+        margin: 0px;
+        letter-spacing: 4px;
+    }
 }
 
 .panelleft {
@@ -160,16 +159,15 @@ a:hover {
     background: #222;
     float: left;
     border-radius: 5px;
-    color: #BFFF00;
+    color: @base;
     font-family: Bebas;
-}
-
-.button p {
-    margin: 0px;
+    p {
+        margin: 0px;
+    }
 }
 
 .button:hover {
-    background: #BFFF00;
+    background: @base;
     color: black;
 }
 
@@ -183,11 +181,16 @@ a:hover {
     height: 100px;
     width: 476px;
     margin: 8px;
+    p {
+        font-size: 83px;
+        margin-top: -5px;
+    }
 }
 
 .longbutton {
     width: 245px;
-    margin: 5px;
+    position: relative;
+    top: 5px;
 }
 
 .centerbutton {
@@ -200,28 +203,24 @@ a:hover {
     border: 3px solid black;
 }
 
-.bigbutton p {
-    font-size: 83px;
-    margin-top: -5px;
-}
-
 .header {
-    height: 65px;
+    height: 68px;
     margin: auto;
-    background: #242f38;
+    background: @nav-background;
     position: fixed;
     width: 100%;
     top: 0px;
-    opacity: .95;
-    color: #BFFF00;
     z-index: 10;
-}
-
-.header h1 {
-    font-size: 68px;
-    width: 120px;
-    height: 65px;
-    margin-left: 15px;
+    border-bottom: 3px solid @nav-border;
+    -webkit-transition: top .5s;
+    transition: top .5s;
+    h1 {
+        font-size: 68px;
+        margin-left: 15px;
+    }
+    a {
+      color: @nav-accent;
+    }
 }
 
 .content {
@@ -232,32 +231,34 @@ a:hover {
 }
 
 .contentlogo {
-    color: #BFFF00;
+    h1 {
+      color: @base;
+    }
     -webkit-transition: color .5s;
     transition: width color .5s;
 }
 
 .contentlogo:hover {
-    color: white;
+    h1 {
+      color: @accent;
+    }
 }
 
 .back {
     float: left;
-}
-
-.back img {
-    width: 65px;
-    height: 65px;
+    img {
+        width: 65px;
+        height: 65px;
+    }
 }
 
 .link {
     float: right;
     margin-top: 260px;
-}
-
-.link img {
-    width: 150px;
-    height: 150px;
+    img {
+        width: 150px;
+        height: 150px;
+    }
 }
 
 .card {
@@ -265,9 +266,15 @@ a:hover {
     height: 420px;
     background: #444;
     padding: 10px;
-    border: 3px solid white;
+    border: 3px solid @accent;
     display: inline-block;
     vertical-align: top;
+    h1 {
+        font-family: Bebas;
+        font-size: 48px;
+        margin-top: 0px;
+        color: white;
+    }
 }
 
 .titlecard {
@@ -277,116 +284,63 @@ a:hover {
     margin: 5px;
 }
 
-.card h1 {
-    font-family: Bebas;
-    font-size: 48px;
-    margin-top: 0px;
-}
-
 .infocardlogo {
     width: 150px;
     height: 150px;
-    border: 5px solid white;
+    border: 5px solid @accent;
     background-size: 500px;
     margin: auto;
     margin-bottom: 15px;
-}
-
-.infocard h1 {
-    font-family: Code;
-    font-size: 30px;
-    margin: 0px;
-}
-
-.infocard h2 {
-    font-family: Bebas;
-    font-size: 30px;
-    margin: 0px;
-    letter-spacing: 4px;
-}
-
-.bc {
-    background: #BFFF00;
-    color: black;
-    width: 350px;
-    height: 200px;
-    margin: auto;
-    position: relative;
-    top: 345px;
-    border-radius: 5px;
-}
-
-.bclogo {
-    width: 90px;
-    float: right;
-    margin: 7px 9px;
-}
-
-.bclogo h1 {
-    font-size: 50px;
-}
-
-.bclogo h2 {
-    font-size: 22px;
-    margin-top: -15px;
-}
-
-.bccontact {
-    text-align: left;
-    float: left;
-    margin: 8px;
-}
-
-.bccontact a {
-    color: black;
-}
-
-.bccontact a:hover {
-    color: white;
-}
-
-.bccontact h2 {
-    font-family: Code;
-    font-size: 19px;
-    margin: 0px;
-}
-
-.bcdownload {
-    float: left;
-    margin: 22px;
+    h1 {
+        font-family: Code;
+        font-size: 30px;
+        margin: 0px;
+    }
+    h2 {
+        font-family: Bebas;
+        font-size: 30px;
+        margin: 0px;
+        letter-spacing: 4px;
+    }
 }
 
 .contentlogo {
-    float: left; 
+    float: left;
 }
 
 .cardcomputer {
     width: 150px;
     height: 150px;
-    border: 5px solid white;
+    border: 5px solid @accent;
 }
 
 .roundbutton {
     display: inline-block;
-    width: 90px;
-    height: 90px;
-    background: #BFFF00;
+    width: 110px;
+    height: 110px;
+    background: @base;
     color: black;
     border-radius: 50%;
     margin: 15px;
-    padding-top: 20px;
+    padding-top: 30px;
     vertical-align: middle;
     text-align: center;
+
+    font-family: Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
     -webkit-transition: width .5s, height .5s, background .5s, margin .5s, padding-top .5s, color .5s;
     transition: width .5s, height .5s, background .5s, margin .5s, padding-top .5s, color .5s;
 }
 
 .roundbutton:hover {
-    width: 110px;
-    height: 110px;
-    background: white;
+    width: 130px;
+    height: 130px;
+    background: @accent;
     margin: 5px;
-    padding-top: 30px;
+    padding-top: 40px;
     color: black;
 }
 
@@ -396,6 +350,7 @@ a:hover {
 
 .navbuttonicon {
     font-size: 250%;
+    color: @nav-background;
 }
 
 .navbuttons {
@@ -409,6 +364,7 @@ a:hover {
     height: 55px;
     margin-top: 5px;
     padding-top: 8px;
+    background: @nav-accent;
 }
 
 .navbutton:hover {
@@ -426,16 +382,16 @@ a:hover {
 
 .viewbutton {
     width: 100%;
-    margin-top: 15px;
+    position: relative;
 }
 
 .mainviewbutton {
     width: 775px;
-    margin-top: 65px;
+    top: 65px;
 }
 
 .centerviewbutton {
-    margin-top: 200px;
+    top: 200px;
 }
 
 .viewtitle {
@@ -445,6 +401,7 @@ a:hover {
     top: 10px;
     font-size: 700%;
     margin-left: 8px;
+    color: white;
 }
 
 .viewtitle span {
@@ -464,10 +421,12 @@ a:hover {
 
 .ipad {
     height: 390px;
+    margin-top: 75px;
 }
 
 .iphone {
-    height: 225px
+    height: 225px;
+    margin-top: 75px;
 }
 
 .glyphicon-send {
@@ -476,7 +435,7 @@ a:hover {
 }
 
 .tooltip-inner {
-    background: white;
+    background: @accent;
     color: black;
 }
 
@@ -484,7 +443,7 @@ a:hover {
   top: 0;
   left: 50%;
   margin-left: -5px;
-  border-bottom-color: white;
+  border-bottom-color: @accent;
   border-width: 0 5px 5px;
 }
 
@@ -502,9 +461,6 @@ a:hover {
 
 .mobilenav {
     display: none;
-    float: right;
-    width: 55%;
-    margin: 5px;
 }
 
 .supportbutton {
@@ -546,6 +502,10 @@ a:hover {
     margin: auto;
 }
 
+#view1 {
+    height: 100%;
+}
+
 #view2 {
     background: url(/Resources/Images/View-2.jpg);
 }
@@ -571,13 +531,13 @@ a:hover {
 }
 
 #profilebutton {
-    font-size: 52px; 
+    font-size: 52px;
     margin-top: 20px;
 }
 
 #repairbutton {
-    font-size: 45px; 
-    margin-top: 18px; 
+    font-size: 45px;
+    margin-top: 18px;
     line-height: 38px;
 }
 
@@ -623,10 +583,6 @@ a:hover {
         height: 235px
     }
 
-    .mainviewbutton {
-        width: 650px;
-    }
-
     .viewtitle {
         margin-top: 0px;
         font-family: Bebas;
@@ -647,15 +603,6 @@ a:hover {
         margin: auto;
         top: 40px;
         height: 100%;
-    }
-
-    .indexlogo {
-        top: 3%;
-    }
-
-
-    .dbzpanel h1 {
-        font-size: 30px;
     }
 
     .panelrect {
@@ -692,11 +639,10 @@ a:hover {
     .bigbutton {
         width: 100%;
         margin: 0px;
-    }
-
-    .bigbutton p {
-        font-size: 75px;
-        margin-top: 8px;
+        p {
+            font-size: 75px;
+            margin-top: 8px;
+        }
     }
 
     #profilebutton {
@@ -738,39 +684,80 @@ a:hover {
         top: 60px;
     }
 
-    .contentlogo h1 {
-        font-size: 65px;
-    }
-
-    .contentlogo h2 {
-        font-size: 44px;
-        margin-top: -23px;
+    .contentlogo {
+      float: none;
+      h1 {
+          font-size: 65px;
+      }
+      h2 {
+          font-size: 44px;
+          margin-top: -23px;
+      }
     }
 
     .sidenav {
         width: 100%;
         height: auto;
-        background: #BFFF00;
-    }
-
-    .sidenav p {
-        margin-top: 10px;
+        background: @base;
+        p {
+            margin-top: 10px;
+        }
     }
 
     .header {
-        height: 45px;
+        height: 48px;
+        h1 {
+            font-size: 50px;
+            margin-top: -2px;
+            margin-right: 85px;
+        }
     }
 
-    .header h1 {
-        width: 88px;
-        position: relative;
-        right: 8px;
-        font-size: 50px;
-        height: 45px;
-        margin-top: -2px;
+    .titleheader {
+        z-index: 2000;
     }
 
-    .header img {
+    .linkheader {
+        top: 48px;
+        text-align: left;
+        z-index: 1000;
+    }
+
+    .menulinkscroller {
+      height: 48px;
+      -webkit-overflow-scrolling: touch;
+      padding: 0px 5px 12px;
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+      list-style: none;
+      font-family: Bebas;
+      font-size: 34px;
+  }
+
+  .menulink {
+      display: inline-block;
+      vertical-align: top;
+      height: 50px;
+      white-space: normal;
+      margin: 0 10px;
+      a {
+        color: @accent;
+        text-decoration: underline;
+        -webkit-transition: color .5s;
+        transition: width color .5s;
+      }
+      a:hover {
+        color: @base;
+      }
+    }
+
+    .disabled {
+        a {
+          pointer-events: none;
+          cursor: default;
+          color: @base;
+        }
     }
 
     .rightcontent {
@@ -793,17 +780,17 @@ a:hover {
 
     .ipad {
         height: 200px;
-        margin-top: 0px;
+        margin-top: 25px;
     }
 
     .iphone {
         height: 235px;
-        margin-top: 25px;
+        margin-top: 50px;
     }
 
     .mainviewbutton {
         width: 75%;
-        margin-top: 25px;
+        top: 25px;
     }
 
     .viewtitle {
@@ -821,7 +808,7 @@ a:hover {
     .mobilenav {
         display: block;
     }
-    
+
     .titlecard {
         width: auto;
     }
@@ -829,6 +816,30 @@ a:hover {
     .contactform {
         width: auto;
         margin: 20px;
+    }
+
+    .navmenu {
+        float: right;
+        -webkit-transition: color .5s;
+        transition: width color .5s;
+        float: left;
+        font-size: 30px;
+        margin: 4px;
+        padding-left: 10px;
+        padding-right: 25px;
+        color: @base;
+    }
+
+    .navmenu:hover {
+        color: @accent;
+    }
+
+    .roundbutton {
+        display: none;
+    }
+
+    #view1 {
+        padding-bottom: 0px;
     }
 
     #Ad {

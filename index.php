@@ -4,26 +4,13 @@
 <!-- This site was written and developed by Brendan Boyle of DBZ Technology -->
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <link rel="stylesheet" href="/CSS/bootstrap/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="/CSS/styles.css" />
-        <script async src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-        <script async src="/CSS/bootstrap/js/bootstrap.min.js"></script>
-        <script async src="/JS/scripts.js"></script>
-        <script async src="/JS/index.js"></script>
-        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-        <meta name="msvalidate.01" content="59E1BC42B9D918F982BBB8F8BF6E4F6F" />
         <title>DBZ Technology | Home</title>
-        <?php include('pingdom.php'); ?>
+        <?php include('includes.php'); ?>
+        <script async src="/JS/index.js"></script>
     </head>
     <body onload="load();">
         <?php include('analyticstracking.php'); ?>
-        <div class="header" style="display: none;">
-            <a href="/" class="logo contentlogo">
-                <h1>DBZ</h1>
-            </a>
-            <?php include('navbuttons.php'); ?>
-        </div>
+        <?php $index = true; include('nav.php'); ?>
         <div class="view" id="view1">
             <!-- DBZ Technology -->
             <div class="indexlogo">

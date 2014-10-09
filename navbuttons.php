@@ -1,7 +1,3 @@
-<select class="form-control mobilenav" id="mobilenav" onchange="mobilenavselect();">
-  <?php mobilenav::options($title); ?>
-</select>
-
 <div class="navbuttons">
     <a href="/Design" class="roundbutton navbutton" data-toggle="tooltip" title="Design"><span class="glyphicon glyphicon-pencil roundbuttonicon navbuttonicon"></span></a>
     <a href="/Technology" class="roundbutton navbutton" data-toggle="tooltip" title="Technology"><span class="glyphicon glyphicon-flash roundbuttonicon navbuttonicon"></span></a>

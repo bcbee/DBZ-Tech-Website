@@ -22,7 +22,7 @@ include('header.php');
         <style type="text/css" media="screen, projection">
             @import url(https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.css); 
         </style> 
-        <iframe class="freshwidget-embedded-form" id="freshwidget-embedded-form" src="https://dbztechnology.freshdesk.com/widgets/feedback_widget/new?&widgetType=embedded&formTitle=DBZ+Technology+Support&submitThanks=We+are+incredibly+sorry+for+the+inconvenience%2C+an+agent+will+contact+you+within+two+business+days.&screenshot=no&searchArea=no" scrolling="no" height="400px" width="100%" frameborder="0" style="background: white; border-radius: 5px;" >
+        <iframe class="freshwidget-embedded-form" id="freshwidget-embedded-form" src="https://dbztechnology.freshdesk.com/widgets/feedback_widget/new?&widgetType=embedded&formTitle=DBZ+Technology+Support&submitThanks=We+are+incredibly+sorry+for+the+inconvenience%2C+an+agent+will+contact+you+within+two+business+days.&screenshot=no&searchArea=no" scrolling="no" height="475px" width="100%" frameborder="0" style="background: white; border-radius: 5px;" >
         </iframe>
     </form>
     
