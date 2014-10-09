@@ -2,8 +2,10 @@
 $(window).scroll(function() {
     var scrollpos = $("body").scrollTop();
     if (scrollpos > 400) {
-        $(".header").show();
+        $(".titleheader").css("top", "0px");
     } else {
-        $(".header").hide();
+        $(".titleheader").css("top", "-68px");
+        $(".linkheader").css("top", "-68px");
+        menuDisplayed = false;
     }
 });

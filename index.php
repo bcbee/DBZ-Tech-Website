@@ -1,47 +1,16 @@
 <?php $title = "Home"; include('classes.php'); ?>
 <!doctype html>
+<!-- BETA VERSION -->
 <!-- This site was written and developed by Brendan Boyle of DBZ Technology -->
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <link rel="stylesheet" href="/CSS/bootstrap/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="/CSS/styles.css" />
-        <script async src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-        <script async src="/CSS/bootstrap/js/bootstrap.min.js"></script>
-        <script async src="/JS/scripts.js"></script>
-        <script async src="/JS/index.js"></script>
-        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-        <meta name="msvalidate.01" content="59E1BC42B9D918F982BBB8F8BF6E4F6F" />
         <title>DBZ Technology | Home</title>
-        <?php include('pingdom.php'); ?>
-        <!--
-        To collect end-user usage analytics about your application,
-        insert the following script into each page you want to track.
-        Place this code immediately before the closing </head> tag,
-        and before any other scripts. Note that it may take up to 15
-        minutes to process and display information here after
-        instrumenting and opening your web page.
-        -->
-        <script type="text/javascript">
-            window.appInsights=window.appInsights||function(ai){
-                function f(t){ai[t]=function(){var i=arguments;ai.queue.push(function(){ai[t].apply(ai,i)})}}
-                var t=document,r="script",u=t.createElement(r),i;for(u.src=ai.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",t.getElementsByTagName(r)[0].parentNode.appendChild(u),ai.cookie=t.cookie,ai.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)f("track"+i.pop());
-                return ai;
-            }({
-                iKey:"c0ae0aae-2c08-44ad-aff3-d9b37246d4ea"
-            });
-
-            appInsights.trackPageView();
-        </script>
+        <?php include('includes.php'); ?>
+        <script async src="/JS/index.js"></script>
     </head>
     <body onload="load();">
         <?php include('analyticstracking.php'); ?>
-        <div class="header" style="display: none;">
-            <a href="/" class="logo contentlogo">
-                <h1>DBZ</h1>
-            </a>
-            <?php include('navbuttons.php'); ?>
-        </div>
+        <?php $index = true; include('nav.php'); ?>
         <div class="view" id="view1">
             <!-- DBZ Technology -->
             <div class="indexlogo">
