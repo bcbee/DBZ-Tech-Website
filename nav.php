@@ -5,7 +5,7 @@
     </a>
     <?php include('navbuttons.php'); ?>
 </div>
-<div class="header linkheader" style="top: -48px;">
+<div class="header linkheader" style="top: -48px; display: none;">
     <a href="javascript:toggleLinkMenu();" class="glyphicon glyphicon-remove mobilenav navmenu" style="margin-top: 6px;"></a>
 
     <ul class="menulinkscroller">
