@@ -11,7 +11,7 @@ function toggleLinkMenu() {
         $(".linkheader").css("top", "48px");
         setTimeout(function(){$(".linkheader").show();}, 500);
     } else {
-        $(".linkheader").css("top", "-48px");
+        $(".linkheader").css("top", "-68px");
         setTimeout(function(){$(".linkheader").hide();}, 500);
     }
 

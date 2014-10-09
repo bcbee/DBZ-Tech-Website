@@ -4,7 +4,8 @@ $(window).scroll(function() {
     if (scrollpos > 400) {
         $(".titleheader").css("top", "0px");
     } else {
-        $(".titleheader").css("top", "-48px");
-        $(".linkheader").css("top", "-48px");
+        $(".titleheader").css("top", "-68px");
+        $(".linkheader").css("top", "-68px");
+        menuDisplayed = false;
     }
 });

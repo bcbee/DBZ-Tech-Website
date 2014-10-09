@@ -1,11 +1,11 @@
-<div class="header titleheader" style="<?php if($index){echo('top: -48px;');} ?>">
+<div class="header titleheader" style="<?php if($index){echo('top: -68px;');} ?>">
     <a href="javascript:toggleLinkMenu();" class="glyphicon glyphicon-th mobilenav navmenu"></a>
     <a href="/" class="logo contentlogo">
         <h1>DBZ</h1>
     </a>
     <?php include('navbuttons.php'); ?>
 </div>
-<div class="header linkheader" style="top: -48px; display: none;">
+<div class="header linkheader" style="top: -68px; display: none;">
     <a href="javascript:toggleLinkMenu();" class="glyphicon glyphicon-remove mobilenav navmenu" style="margin-top: 6px;"></a>
 
     <ul class="menulinkscroller">
