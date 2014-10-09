@@ -9,8 +9,10 @@ function load() {
 function toggleLinkMenu() {
     if (!menuDisplayed) {
         $(".linkheader").css("top", "48px");
+        setTimeout(function(){$(".linkheader").show();}, 500);
     } else {
         $(".linkheader").css("top", "-48px");
+        setTimeout(function(){$(".linkheader").hide();}, 500);
     }
 
     menuDisplayed = !menuDisplayed;
