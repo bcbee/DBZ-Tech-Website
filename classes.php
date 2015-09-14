@@ -31,7 +31,7 @@ class portfolio {
 
         switch(portfolio::$view) {
             case "All":
-            $detailcards = array('Splat', 'MPAror', 'UPR', 'Erickson', 'CreateOldServer', 'CreateServer', 'You', 'CreateBrock', 'CreateGrandpa');
+            $detailcards = array('Splat', 'MPAror', 'UPR', 'Erickson', 'CreateOldServer', 'CreateServer', 'CreateBrock', 'CreateGrandpa');
             $viewfull = false;
             break;
             case "Design":
