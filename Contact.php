@@ -1,6 +1,5 @@
 <?php
 include('classes.php');
-include('contactconfig.php');
 $title = "Contact";
 $back = "/";
 include('header.php');
@@ -10,13 +9,14 @@ include('header.php');
     <h1 class="pagetitle">Contact DBZ Technology</h1>
 
     <p class="btn btn-success supportbutton" onclick="Core.hideId('supportform'); Core.hideId('genericform'); Core.showId('supportform');"><span class="glyphicon glyphicon-thumbs-up"></span> Support</p>
+    <!--
     <br /><br />
     <p class="btn btn-success supportbutton" onclick="Core.hideId('supportform'); Core.hideId('genericform'); Core.showId('genericform'); document.getElementById('genericformsubject').value = 'Request a Quote';  document.getElementById('genericformheader').innerHTML = 'Request a Quote';"><span class="glyphicon glyphicon-usd"></span> Request a Quote</p>
     <br /><br />
     <p class="btn btn-success supportbutton" onclick="Core.hideId('supportform'); Core.hideId('genericform'); Core.showId('genericform'); document.getElementById('genericformsubject').value = 'Ask a Question';  document.getElementById('genericformheader').innerHTML = 'Ask a Question';"><span class="glyphicon glyphicon-question-sign"></span> Ask a Question</p>
     <br /><br />
     <p class="btn btn-success supportbutton" onclick="Core.hideId('supportform'); Core.hideId('genericform'); Core.showId('genericform'); document.getElementById('genericformsubject').value = 'Other';  document.getElementById('genericformheader').innerHTML = 'Other';"><span class="glyphicon glyphicon-info-sign"></span> Other</p>
-
+    -->
     <br />
     <br />
 

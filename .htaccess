@@ -1,1 +1,2 @@
+RewriteEngine On
 RewriteRule ^([A-Z][A-Za-z]*)$ /$1.php
