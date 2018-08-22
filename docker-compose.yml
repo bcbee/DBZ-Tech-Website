@@ -1,7 +1,7 @@
 version: '3'
 services:
   php:
-    image: hub.dbztech.com/dbz-tech-website:1.0.0
+    image: hub.dbztech.com/dbz-tech-website:1.0.1
     ports:
       - 8090:80
     networks:
