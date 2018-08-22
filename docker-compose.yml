@@ -3,7 +3,7 @@ services:
   php:
     image: hub.dbztech.com/dbz-tech-website:1.0.0
     ports:
-      - 8110:80
+      - 8090:80
     networks:
       - dmz
     restart: always
