@@ -23,6 +23,7 @@ docker image push gcr.io/api-project-367056975125/dbz-tech-website:latest'''
 ls
 ls $GCP_SERVICE_ACCOUNT
 cat $GCP_SERVICE_ACCOUNT
+cat test.txt
 
 docker container run -v $GCP_SERVICE_ACCOUNT:/gcp_service_account.json google/cloud-sdk ls -R /gcp_service_account.json
 
