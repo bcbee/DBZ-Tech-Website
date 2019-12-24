@@ -18,6 +18,6 @@ cat keyfile.json | docker login -u _json_key --password-stdin https://gcr.io'''
 
   }
   environment {
-    GCP_SERVICE_ACCOUNT = 'credentials(\'gcp-service-account\')'
+    GCP_SERVICE_ACCOUNT = credentials('gcp-service-account')
   }
 }
