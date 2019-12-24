@@ -21,12 +21,14 @@ docker image push gcr.io/api-project-367056975125/dbz-tech-website:latest'''
         sh 'docker image pull google/cloud-sdk'
         sh '''docker container run \\
 -e "GCP_JSON=$(cat $GCP_SERVICE_ACCOUNT)" \\
+-e "PROJECT_NAME=$PROJECT_NAME" \\
+-e "IMAGE_TAG=$(git rev-parse --short HEAD)" \\
 google/cloud-sdk \\
 bash -c "printenv GCP_JSON > /gcp_service_account.json \\
 && cat /gcp_service_account.json \\
 && gcloud auth activate-service-account  --key-file /gcp_service_account.json \\
 && gcloud container clusters get-credentials dbz-arterion --zone us-east1-b \\
-&& kubectl get pods"'''
+&&  kubectl set image deployment/$PROJECT_NAME $PROJECT_NAME=gcr.io/api-project-367056975125/$PROJECT_NAME:$IMAGE_TAG --record"'''
       }
     }
 
