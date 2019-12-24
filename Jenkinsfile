@@ -3,9 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''pwd
-docker ps
-'''
+        sh 'docker image build .'
       }
     }
 
