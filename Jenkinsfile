@@ -25,10 +25,10 @@ docker image push gcr.io/api-project-367056975125/$PROJECT_NAME:latest'''
 -e "IMAGE_TAG=$(git rev-parse --short HEAD)" \\
 google/cloud-sdk \\
 bash -c "printenv GCP_JSON > /gcp_service_account.json \\
-&& echo "$PROJECT_NAME=gcr.io/api-project-367056975125/$PROJECT_NAME\\:$IMAGE_TAG" \\
+&& echo "$PROJECT_NAME=gcr.io/api-project-367056975125/$PROJECT_NAME:${IMAGE_TAG}" \\
 && gcloud auth activate-service-account  --key-file /gcp_service_account.json \\
 && gcloud container clusters get-credentials dbz-arterion --zone us-east1-b \\
-&&  kubectl set image deployment/$PROJECT_NAME $PROJECT_NAME=gcr.io/api-project-367056975125/$PROJECT_NAME\\:$IMAGE_TAG --record"'''
+&&  kubectl set image deployment/$PROJECT_NAME $PROJECT_NAME=gcr.io/api-project-367056975125/$PROJECT_NAME:"${IMAGE_TAG}" --record"'''
       }
     }
 
