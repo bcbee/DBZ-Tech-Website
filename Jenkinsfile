@@ -19,7 +19,7 @@ docker image push gcr.io/api-project-367056975125/dbz-tech-website:latest'''
     stage('Deploy') {
       steps {
         sh 'docker image pull google/cloud-sdk'
-        sh 'docker container run -e "GCP_JSON=$(cat $GCP_SERVICE_ACCOUNT)" google/cloud-sdk bash -c "env && echo $GCP_JSON && printenv GCP_JSON && cat /gcp_service_account.json && gcloud auth activate-service-account --key-file /gcp_service_account.json && gcloud container clusters get-credentials dbz-arterion && kubectl get pods"'
+        sh 'docker container run -e "GCP_JSON=$(cat $GCP_SERVICE_ACCOUNT)" google/cloud-sdk bash -c "printenv GCP_JSON > /gcp_service_account.json && cat /gcp_service_account.json && gcloud auth activate-service-account --key-file /gcp_service_account.json && gcloud container clusters get-credentials dbz-arterion && kubectl get pods"'
       }
     }
 
