@@ -16,6 +16,13 @@ docker image push gcr.io/api-project-367056975125/dbz-tech-website:latest'''
       }
     }
 
+    stage('Deploy') {
+      steps {
+        sh 'docker image pull google/cloud-sdk'
+        sh 'docker container run -v $GCP_SERVICE_ACCOUNT:/gcp_service_account.json google/cloud-sdk cat /gcp_service_account.json '
+      }
+    }
+
   }
   environment {
     GCP_SERVICE_ACCOUNT = credentials('gcp-service-account')
