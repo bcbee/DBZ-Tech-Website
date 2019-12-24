@@ -21,6 +21,7 @@ docker image push gcr.io/api-project-367056975125/dbz-tech-website:latest'''
         sh 'docker image pull google/cloud-sdk'
         sh '''cat $GCP_SERVICE_ACCOUNT > gcp_service_account.json
 pwd
+ls -R
 
 docker container run -v /var/jenkins_home/workspace/:/jenkins google/cloud-sdk ls -R /jenkins
 
