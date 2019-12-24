@@ -9,8 +9,7 @@ pipeline {
 
     stage('Push') {
       steps {
-        sh '''cat $JENKINS_HOME/credentials.xml
-cat $GCP_SERVICE_ACCOUNT | docker login -u _json_key --password-stdin https://gcr.io'''
+        sh 'cat $GCP_SERVICE_ACCOUNT | docker login -u _json_key --password-stdin https://gcr.io'
         sh 'docker image push gcr.io/api-project-367056975125/dbz-tech-website:$(git rev-parse --short HEAD)'
       }
     }
