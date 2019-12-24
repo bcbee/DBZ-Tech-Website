@@ -18,12 +18,11 @@ docker image push gcr.io/api-project-367056975125/dbz-tech-website:latest'''
 
     stage('Deploy') {
       steps {
-        sh '''curl https://sdk.cloud.google.com > install.sh
-bash install.sh --disable-prompts'''
-        sh '''gcloud version
-gcloud auth activate-service-account --key-file $GCP_SERVICE_ACCOUNT 
-gcloud container clusters get-credentials dbz-arterion
-kubectl get pods'''
+        sh 'docker image pull google/cloud-sdk'
+        sh '''docker container run -e "GCP_SERVICE_ACCOUNT=$(cat $GCP_SERVICE_ACCOUNT)" google/cloud-sdk gcloud version
+
+
+docker container run -e "GCP_SERVICE_ACCOUNT=$(cat $GCP_SERVICE_ACCOUNT)" google/cloud-sdk echo $GCP_SERVICE_ACCOUNT > /gcp_service_account.json; gcloud auth activate-service-account --key-file /gcp_service_account.json; gcloud container clusters get-credentials dbz-arterion; kubectl get pods'''
       }
     }
 
