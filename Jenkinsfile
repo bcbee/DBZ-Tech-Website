@@ -25,10 +25,10 @@ ls $GCP_SERVICE_ACCOUNT
 cat $GCP_SERVICE_ACCOUNT
 cat test.txt
 
-docker container run -v ./test.txt:/gcp_service_account.json google/cloud-sdk ls -R /gcp_service_account.json
+docker container run -v test.txt:/gcp_service_account.json google/cloud-sdk ls -R /gcp_service_account.json
 
 
-docker container run -v ./test.txt:/gcp_service_account.json google/cloud-sdk gcloud auth activate-service-account --key-file /gcp_service_account.json; gcloud container clusters get-credentials dbz-arterion; kubectl get pods  '''
+docker container run -v test.txt:/gcp_service_account.json google/cloud-sdk gcloud auth activate-service-account --key-file /gcp_service_account.json; gcloud container clusters get-credentials dbz-arterion; kubectl get pods  '''
       }
     }
 
