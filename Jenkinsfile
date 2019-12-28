@@ -17,6 +17,7 @@ docker image push gcr.io/api-project-367056975125/$PROJECT_NAME:latest'''
     }
 
     stage('Deploy') {
+      when { branch 'master' }
       steps {
         sh 'docker image pull google/cloud-sdk'
         sh '''docker container run \\
