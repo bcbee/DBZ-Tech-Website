@@ -11,34 +11,4 @@
   <changefreq>monthly</changefreq>
   <priority>1.00</priority>
 </url>
-<url>
-  <loc>http://dbztech.com/Design</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://dbztech.com/Technology</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://dbztech.com/Innovation</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://dbztech.com/Apps</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://dbztech.com/Portfolio</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://dbztech.com/Contact</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
 </urlset>
